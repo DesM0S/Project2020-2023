@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новостное агенство</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="scriot.js"></script>
+</head>
+<body>
+
+    <div id="black_bar">
+        <div class="fix_block">
+            <div class="black_barFlex">
+            <div class="upText">Самые <a href="#">свежие новости</a> в реальном времени</div>
+            <div class="datas">12:30 19.06.2019</div></div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="fix_block">
+            <div class="headerFlex">
+                <div class="logo">
+                    <img  src="img/logo.png"> 
+                </div>
+                <div class="town">
+                    <select name="town">
+                        <option>Москва</option>
+                    </select>
+                </div>
+                <span>19 июня, вторник</span>
+                <div class="weather">
+                    <img class="ico-weather" src="img/ico-weather.png" alt="Погода">
+                    <p>+22&#176;C</p>
+                </div>
+                <div class="timeS"><img src="img/">10:48</div>
+                <img class="erorrik" src="img/loupe.png">
+                <div class="burger_menu">
+                    <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                      <path
+                            class="line top"
+                            d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                      <path
+                            class="line middle"
+                            d="m 70,50 h -40" />
+                      <path
+                            class="line bottom"
+                            d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+                    </svg>         
+              </div>
+                <div class="search">
+                    
+                    <input type="text" placeholder="Поиск по сайту">
+                </div>
+            </div>   
+        </div>
+    </div>
+    <div class="nav">
+        <div class="fix_block">
+            <nav>
+                <ul>
+                    <li>Главнаяя</li>
+                    <li class="grey">/</li>
+                    <li>Политика</li>
+                    <li class="grey">/</li>
+                    <li>общество</li>
+                    <li class="grey">/</li>
+                    <li>Экономика</li>
+                    <li class="grey">/</li>
+                    <li>В мире</li>
+                    <li class="grey">/</li>
+                    <li>Проишествия</li>
+                    <li class="grey">/</li>
+                    <li>Спорт</li>
+                    <li class="grey">/</li>
+                    <li>Наука</li>
+                    <li class="grey">/</li>
+                    <li>Туризм</li>
+                    
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="listMin">
+            <ul>
+                <li>Главнаяя</li>
+                <li>Политика</li>
+                <li>общество</li>
+                <li>Экономика</li>
+                <li>В мире</li>
+                <li>Проишествия</li>
+                <li>Спорт</li>
+                <li>Наука</li>
+                <li>Туризм</li>
+
+        </div>
+    </div>
+    <div class="centerBlock">
+        <div class="fix_block">
+            <div class="flexic">
+                <div class="lol_name"><h3>Новости дня</h3></div>
+                <div class="max_width_485">
+                <div class="centerBlock_left ">
+                    <div class="H2news"><h2>Новости дня</h2></div>
+                    
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ ЧМ по футболу</a>
+                            <div class="newsTime">10:48</div>
+                            <div class="newsComments">15</div>
+                        </div>                   
+                    </div>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            «Нафтогаз»: суд разрешил заморозить активы «Газпрома» в Великобритании
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ Политика</a>
+                            <div class="newsTime">10:48</div>
+                            <div class="newsComments">15</div>
+                        </div>                   
+                    </div>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            Минтранс предписал оборудовать общественный транспорт кондиционерами
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ Транспорт</a>
+                            <div class="newsTime">10:48</div>
+                            <div class="newsComments">15</div>
+                        </div>                   
+                    </div>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            Летние кафе Москвы временно закроются из-за непогоды
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ Погода</a>
+                            <div class="newsTime">10:48</div>
+                            <div class="newsComments">15</div>
+                        </div>                   
+                    </div>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            Комплексное благоустройство Щелковского шоссе завершится в июне
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ Транспорт</a>
+                            <div class="newsTime">10:48</div>
+                            <div class="newsComments">15</div>
+                        </div>                   
+                    </div>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            В Москве назвали самое популярное мороженое у болельщиков ЧМ-20
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ ЧМ по футболу</a>
+                            <div class="newsTime">10:48</div>
+                            <div class="newsComments">15</div>
+                        </div>                   
+                    </div>
+                    <button>Все новости</button>              
+                </div>
+                </div>
+                <div class="centerBlock_center">
+                    <div class="glavCenterBlock">
+                        <div class="Teg">/ Политика</div>
+                        <div><h2>В Крыму отреагировали на слова Кравчука о возврате полуострова</h2></div>
+                        <div class="date">
+                            <div class="dates">19 Июня 2018</div>
+                            <div class="time">10:48</div>
+                        </div>
+                    </div>
+                    <div class="downCenterBlock">
+                        <div class="news_menuCenterBlock">
+                            <img src="img/img_news.png" alt="фото"></<img>
+                            <h2>Алексей Навальный объявил акцию против пенсионной реформы 1 июля</h2>
+                            <div class="newsFooter">
+                                <a href="#">/ Политика</a>
+                                <div class="newsTime">10:48</div>
+                                <div class="newsComments">15</div>
+                            </div>
+                        </div>
+                        
+                        <div class="news_menuCenterBlock w1">
+                            <img src="img/1.png" alt="фото"></<img>
+                            <h2>Дума увеличила пошлины за выдачу загранпаспортов и водительскихих прав</h2>
+                            <div class="newsFooter">
+                                <a href="#">/ общество</a>
+                                <div class="newsTime">12:32</div>
+                                <div class="newsComments">36</div>
+                            </div>
+                        </div>
+                        <div class="news_menuCenterBlock">
+                            <img src="img/2.png" alt="фото"></<img>
+                            <h2>В России заработал стриминговый сервис YouTube</h2>
+                            <div class="newsFooter">
+                                <a href="#">/ Интернет</a>
+                                <div class="newsTime">11:17</div>
+                                <div class="newsComments">10</div>
+                            </div>
+                        </div>
+                        
+                        <div class="news_menuCenterBlock w1">
+                            <img src="img/3.png" alt="фото"></<img>
+                            <h2>Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия</h2>
+                            <div class="newsFooter">
+                                <a href="#">/ Политика</a>
+                                <div class="newsTime">11:39</div>
+                                <div class="newsComments">25</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="centerBlock_right">
+                    <img src="img/banner-1.png" alt="скидки">
+                    <img src="img/banner-2.png" alt="предложения">
+                </div>
+                <div class="popularNews">
+                <div class="glavPopularNews">
+                    <div class="block_top">
+                        <a href="#">/ Политика</a>
+                        <h2>Пекин обвинил Вашингтон в развязывании торговой войны</h2>
+                        <div class="date">
+                            <div class="dates">19 Июня 2018</div>
+                            <div class="time">10:48</div>
+                        </div>
+                        <p>Министерство коммерции Китая заявило, что Пекин примет «качественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на ктрайские товары</p>
+                    </div>
+                </div>
+                <div class="PopularNewsRight">
+                    <h1>Самы читаемые новости</h1>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            В Турции пообещали найти альтернативу из-за отказа США поставить F-35
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ Политика</a>
+                            <div class="newsTime">11:39</div>
+                            <div class="newsComments">25</div>
+                        </div>                   
+                    </div>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            Назван минимальный доход для причисления к среднему классу‍
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ Политика</a>
+                            <div class="newsTime">11:39</div>
+                            <div class="newsComments">25</div>
+                        </div>                   
+                    </div>
+                    <div class="news_menu">
+                        <div class="newsTxt">
+                            Назван минимальный доход для причисления к среднему классу‍
+                        </div>
+                        <div class="newsFooter">
+                            <a href="#">/ Политика</a>
+                            <div class="newsTime">11:39</div>
+                            <div class="newsComments">25</div>
+                        </div>                   
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+        
+            
+        
+    </div>
+    <footer>
+        <div class="fix_block">
+            <div class="glavFooter">
+                <div class="left">
+                    <div class="leftList">
+                        <ul>
+                            <li class="listfooter">
+                                <a href="#">Главаня</a>
+                            </li>
+                            <li class="listfooter">
+                                <a href="#">Политика</a>
+                            </li>
+                            <li class="listfooter">
+                                <a href="#">Общество</a>
+                            </li>
+                            <li class="listfooter">
+                                <a href="#">Экономика</a>
+                            </li>
+                            <li class="listfooter">
+                                <a href="#">В мире</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="rightList">
+                        <ul>
+                            <li class="listfooter">
+                                <a href="#">Путешествия</a>
+                            </li>
+                            <li class="listfooter">
+                                <a href="#">Спорт</a>
+                            </li>
+                            <li class="listfooter">
+                                <a href="#">Наука</a>
+                            </li>
+                            <li class="listfooter">
+                                <a href="#">Туризм</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="center">
+                    <img src="img/logblack.png" alt="логотип">
+                    <ul>
+                        <li class="listCenter"><a href="#">Об агенстве</a></li>
+                        <li class="listCenter"><a href="#">Контакты</a></li>
+                        <li class="listCenter"><a href="#">Опубликовать новость</a></li>
+                    </ul>
+                </div>
+                
+                <div class="right">
+                    <div class="cow">
+                        <img src="img/vk.png" alt="vk">
+                        <img src="img/fb.png" alt="fb">
+                        <img src="img/tw.png" alt="tw">
+                        <img src="img/inst.png" alt="inst">
+                    </div>
+                    <div class="cont">
+                        <img src="img/call-answer.svg" alt="" width="15">+7 (499) 995-55-55
+                    </div>
+                    <div class="cont">
+                        <img src="img/envelope.svg " alt="" width="15">info@agency.ru
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bar"></div>
+        <div class="fix_block s">
+            <div class="footerDown">
+                © Новостное агентство, 2017-2018 все права защищены
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

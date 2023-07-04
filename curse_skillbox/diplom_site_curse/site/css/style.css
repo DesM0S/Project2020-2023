@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    overflow-x:hidden;
+    overflow-x: hidden;
+}
+::selection {background: rgb(73, 73, 73); color:rgb(223, 99, 99);}
+
+.fix_block{
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+.indent{
+    padding:0 20px;
+}
+content{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Roboto', sans-serif;
+}
+.ButtonAll{
+    width: 270px;
+    height: 60px;
+    color: #fff;
+    border: none;
+    background-color: #ff4e2e;
+    font-size: 18px;
+}
+/* Шапка */
+header{
+    width: 100%;
+    height: 770px;
+    background-color: #fbfbfb;
+}
+
+        /* СТИЛИ ДЛЯ ВЕРЗНЕЙ ШАПКИ */
+.classFlexHeader{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 2;
+}
+        /* СТИЛИ ДЛЯ ВЕРЗНЕЙ ШАПКИ ЛЕВАЯ ЧАСТЬ*/
+.up_header_left{
+    flex: 1 1;
+    align-items: flex-start;
+    padding-top: 30px;
+    height: 50px;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+}
+nav > ul > li{
+    padding-right: 30px;
+    font-size: 16px;
+}
+.header_list>a:hover{
+    color: #fc557c;
+    text-decoration: underline;
+}
+.burger{
+    display: none;
+}
+        /* СТИЛИ ДЛЯ ВЕРЗНЕЙ ШАПКИ ПРАВАЯ ЧАСТЬ*/
+.up_header_right{
+    flex: 1 2;
+    align-items: flex-end;
+    padding-top: 20px;
+    text-align: right;
+}
+.phone_number{
+    font-size: 25px;
+}
+.Button_request_a_call{
+    width: 200px;
+    height: 45px;
+    border: 2px solid #f82370;
+    color: #f53f4f;
+    font-size: 16px;
+    margin-left: 30px;
+    background-color: #fbfbfb;
+}
+
+
+        /* СТИЛИ ДЛЯ НИЖНЕЙ ШАПКИ */
+.imgfig{
+    z-index: 1;
+    position: absolute;
+    margin-left: 43.4%;
+    width: 53.69%;
+    height: 100%;
+    background-image: url(../img/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+}
+.humman{
+    margin-top: 20px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 43.4%;
+    width: 53.69%;
+    height: 100%;
+    background-image: url(../img/shutterstock_574398823\ copy.png);
+    background-repeat: no-repeat;
+}
+.down_header{
+    z-index: 2;
+    height:690px;
+}
+.My_name{
+    margin-top: 230px;
+    font-size: 80px;
+}
+.My_speciality{
+    font-size: 25px;
+    color: #8993ad;
+    display: block;
+}
+.Button_to_learn_more{
+    margin-top: 50px;
+}
+/* разбросанный текст для нижней части шапки*/
+.scattered_Text_Up{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    background: linear-gradient(150deg, #ff0392, #f16831);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.scattered_1_Up{
+    margin-top: 550px;
+    transform: rotate(-30deg);
+}
+.scattered_2_Up{
+    margin-left: 24%;
+    margin-top: 130px;
+    transform: rotate(-25deg);
+}
+.scattered_3_Up{
+    margin-left: 35%;
+    margin-top: 450px;
+    transform: rotate(25deg);
+}
+.scattered_4_Up{
+    margin-left: 5%;
+    margin-top: 60px;
+    transform: rotate(25deg);
+}
+
+/* услуги */
+.services{
+    z-index: 3;
+    width: 100%;
+    min-height: 650px;
+    background-color: rgb(255, 255, 255);
+
+}
+.center_services{
+    text-align: center;
+
+}
+.What_am_i_doing, .h2text{
+    
+    padding-top: 100px;
+    font-size: 54px;
+    display: block;
+}
+.My_services{
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.my_service{
+    display: block;
+    width: 270px;
+    padding: 0 10px;
+    padding-bottom: 30px;
+}
+.my_service > img{
+    margin-left: 33.33%;
+    display: block;
+    width: 85px;
+    height: 80px;
+    color: red;
+     /* background: linear-gradient(to top, #f26127, #fb269d);  */
+    
+}
+.my_service  img{
+    margin-bottom: 25px;
+    fill: #199;
+}
+.my_service > span{
+    font-size: 20px;
+    color: #8993ad;
+}
+
+.Find_out_the_cost{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+/* мои работы */
+.my_work{
+    width: 100%;
+    min-height: 860px;
+    background-color:#fbfbfb;
+}
+
+.my_work_text{
+    padding-bottom: 100px;
+}
+
+.name_My_Work{
+    display: block;
+    margin-top: 40px;
+    color: #8993ad;
+    font-size: 20px;
+    margin-bottom: 55px;
+    text-align: center;
+
+}
+
+.Buton_mywork{
+    margin-top: 50px;
+}
+.slick-track{
+    display: flex;
+    border: 0;
+}
+.list_my_work{
+    min-width: 0;
+}
+.slick-slider{
+    min-width: 0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.slick-slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -70px 15px 0px 15px;
+    z-index: 10;
+    font-size: 0;
+    width: 55px;
+    height: 55px;
+    border: 0;
+    
+}
+.slick-slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url(../img/sl-arrow_l.svg) 0 0/  60% repeat;
+    background-position: center;
+    background-color: rgba(55, 75, 73, 0.226);
+    border-radius: 50px;
+    
+}
+.slick-slider .slick-arrow.slick-next{
+    right: 0;
+    background: url(../img/sl-arrow_r.svg) 0 0 /  60% repeat;
+    border-radius: 50px;
+    background-position: center ;
+    background-color: rgba(55, 75, 73, 0.226);
+
+} .work>img{
+
+    height: 300px;
+} 
+
+.list_my_work .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_my_work .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.list_my_work .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(253, 35, 35);
+    border-radius: 50%;
+    border: 0;
+}
+.list_my_work .slick-dots li.slick-active button{
+    background-color: rgba(169, 169, 169, 0);
+    border: 1px solid rgb(255, 18, 18);
+}
+
+/* инфа про мою работу */
+.info_about_my_work{
+    width: 100%;
+    min-height: 365px;
+    background: linear-gradient(30deg, #f26127, #fb269d);
+}
+.info_about_my_work_text{
+    color: white;
+    margin-bottom: 40px;
+}
+.important_info{
+    display: block;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    
+    margin-bottom: 90px;
+}
+.scattered_Text_Down{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.scattered_2_Down{
+    margin-top: 340px;
+    transform: rotate(25deg);
+    margin-left: -5%;
+}
+.scattered_1_Down{
+    margin-top: 60px;
+    transform: rotate(25deg);
+    margin-left: -10%;
+}
+.scattered_3_Down{
+    margin-top: 270px;
+    transform: rotate(-25deg);
+    margin-left: 70%;
+}
+.scattered_5_Down{
+    margin-top: 340px;
+    transform: rotate(25deg);
+    margin-left:50%;
+}
+.scattered_4_Down{
+    margin-top: 65px;
+    transform: rotate(-25deg);
+    margin-left: 63%;
+}
+/* подвал */
+footer{
+    width: 100%;
+    padding-top: 80px;
+    
+}
+
+.Up_Footer{
+    width: 100%;
+    background-color: white;
+    min-height: 185px;
+}
+.Up_Footer .fix_block{
+    display: flex;
+    justify-content: space-between;
+}
+.list_nav_footer{
+    line-height: 2;
+    
+}
+.list_nav_footer > a{
+    color:#adb4c5;
+    font-size: 18px;
+}
+.phone{
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+.phone>img{
+    color: grey;
+    margin-right: 20px;
+}
+.contacts_footer .Button_request_a_call{
+    margin-left: 0;
+    margin-top: -12px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+}
+.socal>img{
+    margin-right: 30px;
+}
+
+.Down_Footer{
+    width: 100%;
+    background-color: #31293c;
+    min-height: 85px;
+}
+.Down_Footer span{
+    display: block;
+    font-size: 16px;
+    color: #7c7981;
+    text-align: center;
+    padding-top: 30px;
+}
+.fottwr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* стили для бургера */
+.list{
+    position: fixed;
+    display: flex;
+    background-color: rgba(219, 219, 219, 0.534);
+    z-index: 999;
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border:  3px solid rgba(235, 78, 38, 0.829);
+}
+.List_left{
+    align-items: center;
+    list-style: none;
+
+}
+.List_right{
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.List_right:hover{
+    color: #fc557c;
+}
+.kolo{
+    display: none;
+}
+/* адаптив */
+@media (max-width:1200px){
+    /* шапка */
+    nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+   .fix_block{
+       margin-left: 10px;
+   }
+   /* что я делаю */
+   .My_services{
+        justify-content: space-evenly;
+    }
+    /* немного в лево шапка и футер */
+    .contacts_footer, .up_header_right{
+        padding-right: 20px;
+    }
+    .scattered_5_Down{
+        margin-top: 380px;
+    }
+    .scattered_3_Down{
+        margin-left: 750px;
+    }
+    .My_name{
+        font-size: 50px;
+    }
+    .My_speciality{
+        font-size: 18px;
+
+    }
+    .ButtonAll{
+        font-size: 14px;
+    }
+    .Button_request_a_call{
+        font-size: 14px;
+    }
+    .phone_number{
+        font-size: 18px;
+    }
+    .What_am_i_doing, .h2text{
+        font-size: 34px;
+    }
+    .my_service > span{
+        font-size: 16px;
+    }
+    .name_My_Work{
+        font-size: 15px;
+    }
+    .important_info{
+        font-size: 14px;
+    }
+    .list_nav_footer > a{
+        font-size: 14px;
+    }
+    .phone{
+        font-size: 16px;
+    }
+    .Down_Footer span{
+
+        font-size: 14px;
+
+    }
+    .scattered_4_Down{
+        margin-top: 45px;
+        transform: rotate(-25deg);
+        margin-left: 63%;
+    }
+}
+
+@media (max-width:850px){
+    .up_header_right .Button_request_a_call{
+        display: none;
+    }
+}
+
+@media (max-width:850px){
+    .kolo{
+    width: 30px;
+    display: block;
+    margin-top: -27px;
+    margin-left: 100px;
+    }
+    .phone_number{
+    }
+    .imgfig, .humman{
+        display: none;
+    }
+}
+@media (max-width:650px){
+    .kolo{
+    width: 30px;
+    display: block;
+    margin-top: -27px;
+    margin-left: 50px;
+    }
+    .phone_number{
+    }
+    .imgfig, .humman{
+        display: none;
+    }
+}
+@media (max-width:550px){
+    .kolo{
+    width: 30px;
+    display: block;
+    margin-top: -27px;
+    margin-left: 0px;
+    }
+    .phone_number{
+    }
+    .imgfig, .humman{
+        display: none;
+    }
+    .phone{
+        margin-right: 20px;
+    }
+    .imgfig, .humman{
+        display: initial;
+    }
+}
+@media (max-width:450px){
+    .kolo{
+    width: 30px;
+    display: block;
+    margin-top: -27px;
+    margin-left: -50px;
+    }
+    .phone_number{
+    }
+    .imgfig, .humman{
+        display: none;
+    }
+}
