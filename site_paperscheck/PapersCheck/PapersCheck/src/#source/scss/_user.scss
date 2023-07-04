@@ -1,0 +1,110 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.wrapper {width: 100%;height: 100%;}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+.user {
+    width: 330px;
+    height: 512px;
+    background: rgba(247, 239, 239, 0.05);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+		&__h2 {
+            margin-top: 44px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 36px;
+		}
+
+		&__from {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+		}
+
+		&__from-auther {
+		}
+
+		&__name {
+		}
+
+		&__passwoed {
+		}
+
+		
+
+		&__forget {
+            margin-top: 30px;
+            color: rgba(0, 0, 0, 0.2);
+		}
+}
+
+.input {
+    width: 236px;
+    height: 56px;
+    padding-left:10px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 1px;
+    margin-bottom: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.btn{
+    position: relative;
+    width: 144px;
+    height: 42px;
+    background: #1DBBC5;
+    border-radius: 5px;
+    border: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    &:hover{
+        cursor: pointer;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.btn-auther {
+    
+}
+
+.btn-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+p{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.2);
+}

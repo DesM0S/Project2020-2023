@@ -1,0 +1,188 @@
+.content {
+    width: 100%;
+    height: 1540px;
+    background: #F4F4F4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    &__container {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    &__wrapper {
+        padding: 95px 172px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.card {
+    width: 307px;
+    height: 374px;
+    margin-bottom: 44px;
+    margin-left: 86px;
+    &:nth-child(3n+1){
+        margin-left: 0;
+
+    }
+    &__wrapper{
+        box-shadow: #C4C4C4  2px 2px 10px;
+        box-shadow: #C4C4C4  -2px -2px 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        transform-style: preserve-3d;
+        transition: all 2.5s ease;
+        
+        &:hover{
+            transform: rotateY(180deg);
+        }
+
+    }
+        
+    &__style{
+        box-shadow: #C4C4C4  2px 2px 12px;
+        box-shadow: #C4C4C4  -2px -2px 12px;
+        background-image: url(../img/1_c.jpg);
+        background-size: cover;
+        border-radius: 14px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        overflow: hidden;
+    }
+        /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+    &__front{
+        background-image: url(../img/1_c.jpg);
+        background-size: contain;
+    
+    }
+    
+    /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+    
+    &__text-front {
+        width: 200px;
+        height: 50px;
+        padding: 24px 14px;
+        text-align: center;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-shadow: black 1px 1px 2px;
+    }
+
+    &__back{
+        
+        transform: rotateY(180deg);
+    
+    }
+
+    &__back-up {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__avtor {
+        padding: 16px 35px 0 16px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.065em;
+        color: #FFFFFF;
+        opacity: 0.7;
+        text-shadow: black 0px 0px 6px;
+    }
+
+
+    &__text-back {
+        padding: 4px 14px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-shadow: black 0px 0px 6px;
+        height: 320px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__textall{
+        z-index: 3;
+        position: absolute;
+        width: 35px;
+        height: 20px;
+        right: 0px;
+        bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+
+        background: rgb(75, 74, 74);
+        border-radius: 16px;
+
+        margin-bottom: 19px;
+        margin-right: 8px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.746);
+    }
+}
+
+.miniburger {
+    cursor: pointer;
+    padding: 8px 8px 0 0;
+}
+.miniburger-open{
+    width: 100%;
+    display: flex;
+    position: relative;
+    
+    &>span{
+        cursor: pointer;
+        padding: 8px 8px 0 0;
+        margin-left: 22px;
+    }
+}
+.share {
+    position: absolute;
+    top: 40px;
+    left: 23px;
+    width: 100%;
+    height: 100%;
+
+    &__wrpper {
+        width: 146px;
+        height: 46px;
+        padding-left: 8px;
+        background-image: url(../img/elipse_s.svg);
+        &>span>img{
+            padding-top: 10px;
+            cursor: pointer;
+            
+        }
+    }
+}
+
+
+
