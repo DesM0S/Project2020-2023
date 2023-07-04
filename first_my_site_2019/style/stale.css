@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Conv_Metal Gear';
+	src: url('../famile/Metal Gear.eot');
+	src: local('☺'), url('../famile/Metal Gear.woff') format('woff'), url('../famile/Metal Gear.ttf') format('truetype'), url('../famile/Metal Gear.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+
+body{
+	background-color:#424242;
+
+}
+
+#glav-div{
+	margin: 1.5%;
+	background-color:#585858;
+	border:10px solid black;
+	border-radius: 2%;
+}
+
+
+
+
+
+.header{
+	/*border-bottom:10px solid black;*/
+	border-radius: 2%;
+	font-family: 'Conv_Metal Gear';
+	height: 240px;
+}
+
+div.name{
+	background-color:#585858;
+	margin-top:50px;
+	width: 30%;
+	float: left;
+
+}
+div.name a.ivato{
+	padding: 0;
+	font-size: 50px;
+	color:black;
+	text-decoration: none;
+	transition: 1s;
+
+}
+
+div.name a.ivato:hover{
+	color: #424242;
+}
+div.name a.ivato:active {
+	color: #282923;
+}
+div.name a.ivato i:hover{
+	color: black;
+}
+
+.Disign a{
+	font-size: 23px;
+	padding-top:6%;
+	margin-right: 30px;
+	float: right;
+	text-decoration:none;
+	color:black;
+}
+
+a{font-family: 'Conv_Metal Gear';
+	
+}
+.content{
+	border-top:4px;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	min-height: 350px;
+
+}
+.img1{
+	top:475px;
+}
+.img{
+	width: 50%;
+	float: left;
+}
+.text{
+	width: 50%;
+	float:right;
+	font-size: 20px;
+}
+.footer{
+	min-height: 30px;
+
+}
+.footer-text{
+	padding: 1px;
+	text-align:center;
+	color: white;
+}
