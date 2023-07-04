@@ -11,3 +11,8 @@ https://desm0s.github.io/Project2020-2023/registration_start_2020/index.html <br
 После нескольких попыток усвоить информацию самостоятельно я захотел что то более структурированого но так как колледж пока не довад ни каких ни теоретических не практических знаний я воспользовался интернэтом чтобы самостоятельно найти подходяший материал. <br>
 сайт с курса - https://desm0s.github.io/Project2020-2023/curse_skillbox/site_curse/site/ <br>
 дипломный сайт - https://desm0s.github.io/Project2020-2023/curse_skillbox/diplom_site_curse/site/ <br>
+
+# Дальнейшая практика
+Дальше захотелось создать что-то свое <br>
+неудачный сайт - https://desm0s.github.io/Project2020-2023/site_paperscheck/PapersCheck/PapersCheck/src/ <br>
+хорошая практика в js создание карточек - https://desm0s.github.io/Project2020-2023/site_paperscheck/cart/ <br>
