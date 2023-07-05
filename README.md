@@ -16,12 +16,16 @@ https://desm0s.github.io/Project2020-2023/registration_start_2020/index.html <br
 Дальше захотелось создать что-то свое <br>
 неудачный сайт - https://desm0s.github.io/Project2020-2023/site_paperscheck/PapersCheck/PapersCheck/src/ <br>
 хорошая практика в js создание карточек - https://desm0s.github.io/Project2020-2023/site_paperscheck/cart/ <br>
+Нашел бесплатный шаблон дизайна сайта и решил на нем попрактиковаться - https://desm0s.github.io/Project2020-2023/CDAWT/CDAWT/ <br>
+Решил попробывать скопировать меню из Notion - https://desm0s.github.io/Project2020-2023/notion_menu/dist/ <br>
 
 # Проекты в колледже *Которые сохранилсь*
 В середине 2 курса мы начали применять теорию на практике и делать на парах дизайн и различную вида разработку сайтов <br>
 
 Курсовой проект перевод числа в пропись - https://desm0s.github.io/Project2020-2023/college_practic/NFS/ <br>
-другие проекты написаны на node на гитхабе не показать, можите их запустить они в этой папке - https://github.com/DesM0S/Project2020-2023/tree/main/college_practic
+Проект todolist - https://desm0s.github.io/Project2020-2023/TodoList/site/ <br>
+
+другие проекты написаны на node, на гитхабе не продемонстрировать, можите их запустить они в этой папке - https://github.com/DesM0S/Project2020-2023/tree/main/college_practic
 
 Проект на хакатоне - https://desm0s.github.io/Project2020-2023/hakaton_2021/ - тут к нам на хакатон пришел спикер, в его компанию требовался сотрудник (верстальшик\техподержка) я с ним познакомился и вечером созвонились и на следующий день меня уже приняли в их компанию
 
