@@ -12,17 +12,23 @@ https://desm0s.github.io/Project2020-2023/registration_start_2020/index.html <br
 сайт с курса - https://desm0s.github.io/Project2020-2023/curse_skillbox/site_curse/site/ <br>
 дипломный сайт - https://desm0s.github.io/Project2020-2023/curse_skillbox/diplom_site_curse/site/ <br>
 
-# Дальнейшая практика
-Дальше захотелось создать что-то свое <br>
+# Разная практика
 неудачный сайт - https://desm0s.github.io/Project2020-2023/site_paperscheck/PapersCheck/PapersCheck/src/ <br>
 хорошая практика в js создание карточек - https://desm0s.github.io/Project2020-2023/site_paperscheck/cart/ <br>
+угадай число (алгоритм) <br>
+    - угадываешь ты - https://desm0s.github.io/Guess-the-number/you/ <br>
+    - угадывает алгоритм за 7 шагов - https://desm0s.github.io/Guess-the-number/algoritm/ <br>
+Игра Висельница - https://desm0s.github.io/gallows/ <br>
 Нашел бесплатный шаблон дизайна сайта и решил на нем попрактиковаться - https://desm0s.github.io/Project2020-2023/CDAWT/CDAWT/ <br>
 Решил попробывать скопировать меню из Notion - https://desm0s.github.io/Project2020-2023/notion_menu/dist/ <br>
+Одно из тестовых заданий - https://desm0s.github.io/test-task-LoremIpsum.Net/dist/
+
 
 # Проекты в колледже *Которые сохранилсь*
 В середине 2 курса мы начали применять теорию на практике и делать на парах дизайн и различную вида разработку сайтов <br>
 
 Курсовой проект перевод числа в пропись - https://desm0s.github.io/Project2020-2023/college_practic/NFS/ <br>
+Курсовой проект экскурсия по колледжу - https://desm0s.github.io/College-excursion/ <br>
 Проект todolist - https://desm0s.github.io/Project2020-2023/TodoList/site/ <br>
 другие проекты написаны на node, на гитхабе не продемонстрировать, можите их запустить они в этой папке - https://github.com/DesM0S/Project2020-2023/tree/main/college_practic
 
