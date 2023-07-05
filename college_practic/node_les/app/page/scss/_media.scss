@@ -1,0 +1,429 @@
+@media screen and (max-width: 950px) {
+  .welcome {
+    &-title {
+      font-size: 48px;
+      &__glav {
+        top: 150px;
+      }
+    }
+  }
+  .btn {
+    font-size: 24px;
+    padding: 15px 35px;
+  }
+  .user-p {
+    &__content {
+      padding-bottom: 264px;
+      padding-top: 80px;
+      &-info {
+        width: 700px;
+        &-up {
+          min-height: 600px;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .welcome {
+    &-title {
+      font-size: 32px;
+      &__glav {
+        top: 100px;
+      }
+      &__sign-up,
+      &__sign-in {
+        font-size: 48px;
+      }
+    }
+  }
+  .btn {
+    font-size: 20px;
+    padding: 12px 32px;
+  }
+  .password {
+    &-body {
+      // padding-top: 250px;
+      &__title {
+        font-size: 48px;
+      }
+
+      &-form {
+        padding-top: 80px;
+        &__input {
+          width: 400px;
+          height: 70px;
+          margin-bottom: 20px;
+
+          padding: 26px 20px;
+
+          font-size: 18px;
+          line-height: 27px;
+        }
+        &__btn {
+          padding: 18px 35px;
+          margin-top: 70px;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  .user-p {
+    &__content {
+      padding-bottom: 64px;
+      padding-top: 80px;
+      &-info {
+        width: 100%;
+        margin: 0 30px;
+        &-up {
+          min-height: 600px;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .welcome {
+    &-title {
+      width: 300px;
+      font-size: 32px;
+      text-align: center;
+      margin: 0 auto;
+      &__glav {
+        top: 60px;
+      }
+      &__sign-up {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color: $color-white;
+      }
+      &__sign-in {
+        padding-top: 60px;
+      }
+    }
+    &-form {
+      &__sign-in {
+        padding-top: 55px;
+      }
+      &__down {
+        margin-top: 30px;
+        width: 350px;
+      }
+      &__input {
+        width: 350px;
+        height: 60px;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+
+      &__politica {
+        #checkbox + label:before {
+          font-size: 14px;
+        }
+      }
+      span {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .btn {
+    font-size: 18px;
+    padding: 10px 28px;
+  }
+  .forgot-password {
+    font-size: 12px;
+    margin-right: -200px;
+  }
+  .sign-in__user-icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  .password {
+    &-body {
+      // padding-top: 200px;
+      &__title {
+        font-size: 32px;
+      }
+
+      &-form {
+        padding-top: 50px;
+        &__input {
+          width: 360px;
+          height: 70px;
+          margin-bottom: 20px;
+
+          padding: 26px 20px;
+
+          font-size: 18px;
+          line-height: 27px;
+        }
+        &__btn {
+          padding: 16px 30px;
+          margin-top: 40px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .user-p {
+    &-header {
+      height: 80px;
+      &__text {
+        font-size: 20px;
+      }
+      &__back {
+        font-size: 20px;
+        &-img {
+          margin-left: 5px;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+
+    &__content {
+      padding-bottom: 44px;
+      padding-top: 60px;
+      &-foto {
+        width: 200px;
+        margin-bottom: 60px;
+        &-img {
+          width: 200px;
+          height: 200px;
+        }
+        &-upload {
+          margin-top: 30px;
+          width: 170px;
+          height: 49px;
+          display: flex;
+          align-items: center;
+          &-img {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+          }
+          &-text {
+            font-size: 16px;
+          }
+        }
+
+        &-btn {
+          margin-top: 20px;
+          padding: 8px 30px;
+          font-size: 16px;
+        }
+      }
+      &-info {
+        width: 100%;
+        margin: 0 30px;
+        &-up {
+          min-height: 850px;
+          padding: 25px;
+        }
+        &-container {
+          width: 250px;
+          margin-bottom: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          &-input {
+            margin: 0;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  .welcome {
+    &-title {
+      width: 300px;
+      font-size: 32px;
+      text-align: center;
+      margin: 0 auto;
+      &__glav {
+        top: 60px;
+      }
+      &__sign-up {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color: $color-white;
+      }
+    }
+    &-form {
+      &__down {
+        margin-top: 15px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      &__input {
+        width: 250px;
+        height: 50px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 27px;
+      }
+
+      &__politica {
+        margin-bottom: 30px;
+        #checkbox + label {
+          width: 20px;
+          height: 20px;
+        }
+        #checkbox + label:before {
+          font-size: 14px;
+        }
+      }
+      span {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .forgot-password {
+    font-size: 12px;
+    margin-right: -100px;
+  }
+  .password {
+    &-body {
+      // padding-top: 100px;
+      &__title {
+        font-size: 32px;
+      }
+
+      &-form {
+        padding-top: 50px;
+        &__input {
+          width: 300px;
+          height: 70px;
+          margin-bottom: 20px;
+
+          padding: 26px 20px;
+
+          font-size: 18px;
+          line-height: 27px;
+        }
+        &__btn {
+          padding: 16px 30px;
+          margin-top: 40px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+// для главной страницы и passwors
+@media screen and (max-height: 900px) {
+  .welcome {
+    &-container {
+      &-btn {
+        margin-top: 620px;
+        &:active {
+          margin-top: 625px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-height: 740px) {
+  .welcome {
+    &-container {
+      &-btn {
+        margin-top: 520px;
+        &:active {
+          margin-top: 525px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-height: 640px) {
+  .welcome {
+    &-container {
+      &-btn {
+        margin-top: 420px;
+        &:active {
+          margin-top: 425px;
+        }
+      }
+    }
+  }
+  .password {
+    &-body {
+      padding-top: 100px;
+    }
+  }
+}
+@media screen and (max-height: 520px) {
+  .welcome {
+    &-title {
+      &__glav {
+        top: 40px !important;
+      }
+    }
+    &-container {
+      &-btn {
+        margin-top: 320px;
+        &:active {
+          margin-top: 325px;
+        }
+      }
+    }
+  }
+  .password {
+    &-body {
+      padding-top: 200px;
+    }
+  }
+}
+@media screen and (max-height: 420px) {
+  .welcome {
+    &-container {
+      &-btn {
+        margin-top: 250px;
+        &:active {
+          margin-top: 255px;
+        }
+      }
+    }
+  }
+  .password {
+    &-body {
+      padding-top: 300px;
+    }
+  }
+}
+@media screen and (max-height: 360px) {
+  .welcome {
+    &-container {
+      &-btn {
+        margin-top: 220px;
+        &:active {
+          margin-top: 225px;
+        }
+      }
+    }
+  }
+  .password {
+    &-body {
+      padding-top: 450px;
+    }
+  }
+}

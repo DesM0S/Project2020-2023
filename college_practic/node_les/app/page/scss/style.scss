@@ -1,0 +1,328 @@
+$color-white: #fffff0;
+$color-black: #383636;
+
+@mixin bg($size: cover) {
+  background-size: $size;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin standartAnimate($time: 0.3s) {
+  transition: ease-in $time;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "_null.scss";
+@import "_styke-user.scss";
+@import "_stele-404.scss";
+@import "_password-style";
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+.welcome {
+  width: 100%;
+  height: 100%;
+  &-body {
+    overflow: hidden;
+    &-sign {
+      padding-bottom: 50px;
+      width: auto;
+      height: auto;
+      &-up {
+        background: $color-black;
+      }
+      &-in {
+        background: $color-white;
+        height: auto;
+      }
+    }
+  }
+  &-sign-up {
+    background: $color-black;
+    position: relative;
+  }
+  &-sign-in {
+    background: $color-white;
+    position: relative;
+  }
+
+  &-title {
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 1px;
+    text-align: center;
+
+    &__glav {
+      transform: translateX(-50%);
+      position: absolute;
+      top: 200px;
+      left: 50%;
+    }
+    &__white {
+      color: $color-white;
+    }
+    &__black {
+      color: $color-black;
+    }
+
+    &__sign-up {
+      padding-top: 105px;
+      padding-bottom: 115px;
+      color: $color-white;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__sign-in {
+      padding-top: 105px;
+      color: $color-black;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &-container {
+    display: flex;
+    &__black {
+      width: 100%;
+      height: 100vh;
+      background: $color-black;
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-bottom: 500px;
+    }
+    &__white {
+      width: 100%;
+      height: 100vh;
+      background: $color-white;
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-bottom: 200px;
+    }
+    &-btn {
+      margin-top: 720px;
+      &:active {
+        margin-top: 725px;
+      }
+    }
+  }
+
+  &-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__sign-up {
+    }
+    &__sign-in {
+      padding-top: 55px;
+    }
+    &__up {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__down {
+      width: 450px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__input {
+      display: block;
+      width: 450px;
+      height: 80px;
+      padding: 0 20px;
+      margin-bottom: 30px;
+
+      background: inherit;
+      box-sizing: border-box;
+      border-radius: 10px;
+
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+
+      &-white {
+        color: $color-white;
+        border: 2px solid $color-white;
+        &::-webkit-input-placeholder {
+          color: $color-white;
+          opacity: 0.7;
+        }
+      }
+
+      &-black {
+        color: $color-black;
+        border: 2px solid $color-black;
+        &::-webkit-input-placeholder {
+          color: $color-black;
+          opacity: 0.7;
+        }
+      }
+    }
+
+    &__politica {
+      display: flex;
+      align-items: center;
+      position: relative;
+      #checkbox {
+        display: none;
+        // width: 20px;
+        // height: 20px;
+        // background: $color-black;
+        // border: 1px solid $color-white;
+      }
+      #checkbox + label {
+        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 20px;
+        height: 20px;
+        background: $color-black;
+        border: 1px solid $color-white;
+      }
+      #checkbox + label:before {
+        display: none;
+        content: "✔";
+        font-size: 14px;
+        color: $color-white;
+      }
+      #checkbox:checked + label {
+        border: 1px solid $color-white;
+      }
+      #checkbox:checked + label:before {
+        display: block;
+        color: $color-white;
+      }
+    }
+    span {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+      color: $color-white;
+      margin-left: 10px;
+    }
+  }
+}
+
+.btn {
+  font-size: 36px;
+  line-height: 54px;
+
+  padding: 20px 40px;
+
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  &-white {
+    border: 3px solid $color-white;
+    color: $color-white;
+    @include standartAnimate();
+    &:hover {
+      background: $color-white;
+      color: $color-black;
+    }
+  }
+  &-black {
+    border: 3px solid $color-black;
+    color: $color-black;
+    @include standartAnimate();
+    &:hover {
+      background: $color-black;
+      color: $color-white;
+    }
+  }
+  &__sign-in {
+    margin-top: 50px;
+  }
+}
+
+.sign-up-down {
+  color: $color-white;
+  &::before {
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background: $color-white;
+  }
+}
+.sign-in-down {
+  color: $color-black;
+  &::before {
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background: $color-black;
+    
+  }
+}
+.down-welcome {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  a {
+    margin-top: 20px;
+    display: inline-block;
+    color: inherit;
+  }
+}
+
+.sign-in__user-icon {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.forgot-password {
+  margin-right: -300px;
+  opacity: 0.7;
+  margin-top: -25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: $color-black;
+  position: relative;
+  padding-top: 10px;
+  &::after {
+    content: "";
+    opacity: 0.7;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border: 1px solid $color-black;
+  }
+}
+
+
+
+@import "_media.scss";

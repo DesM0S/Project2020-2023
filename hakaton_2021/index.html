@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-logo.svg" type="image/svg">
+  <title>ВерхушкаКОДера</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container header__container">
+      <div class="header__top">
+        <img src="img/logo.svg" alt="ВерхушкаКОДера" class="header__logo">
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#header" class="menu__link">Начало</a></li>
+            <li class="menu__item"><a href="#specialization" class="menu__link">Специализация</a></li>
+            <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
+            <li class="menu__item"><a href="#progect" class="menu__link">Проекты</a></li>
+            <li class="menu__item"><a href="#form" class="menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- /.menu -->
+      </div>
+      <!-- /.header__top -->
+    </div>
+    <!-- /.container -->
+    <div class="header__bottom">
+      <h1 class="header__title">Создаём профессиональные сайты<br> по всему миру</h1>
+      <div class="header__wrapper-bg"></div>
+      <a href="#specialization" class="arrow"><img src="img/header-arrow.svg" alt="Icon: arrow-down"
+          class="arrow__image"></a>
+    </div>
+    <!-- /.header__bottom -->
+  </header>
+
+  <section class="specialization" id="specialization">
+    <div class="container">
+      <h2 class="section-title section-title--botton">Наша специализация</h2>
+      <div class="specialization__wrapper">
+        <div class="specialization-card">
+          <div class="specialization-card__wrapper-text">
+            <h3 class="specialization-card__title">
+              <img src="img/specialization-icon-left.svg" alt="Icon: specialization-icon"
+                class="specialization-card__icon">
+              Разработка Web проектов
+            </h3>
+            <p class="specialization-card__text">
+              Разработаем ваш проект полного цикла с нуля. Начиная с дизайна , мы зададим несколько уточняющих вопросов
+              и
+              отталкиваясь на них дизайнер сделает макет вашего проекта. С помощью макета будет разработан Frontend ,
+              макет в веб
+              + интерактив.
+              Подключим Backend и
+              разместим на сервере.
+            </p>
+          </div>
+          <img src="img/specialization-image-left.svg" alt="Image: specialization-image"
+            class="specialization-card__image">
+        </div>
+        <!-- ./specialization-card -->
+        <div class="specialization-card">
+          <div class="specialization-card__wrapper-text">
+            <h3 class="specialization-card__title">
+              <img src="img/specialization-icon-right.svg" alt="Icon: specialization-icon"
+                class="specialization-card__icon">
+              Поддержка сайтов
+            </h3>
+            <p class="specialization-card__text">
+              Поддержка разработанного сайта за небольшую ежемесячную плату включает: мелкие исправления как на Frontend
+              так и на Backend сторонах если в них будет необходимость или ошибки, а также ответственность за
+              работоспособность
+              сайта.
+            </p>
+          </div>
+          <img src="img/specialization-image-right.svg" alt="Image: specialization-image"
+            class="specialization-card__image">
+        </div>
+        <!-- ./specialization-card -->
+      </div>
+      <!-- /.specialization__wrapper -->
+    </div>
+    <!-- ./container -->
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title section-title--botton">Почему именно мы?</h2>
+
+      <div class="about__wrapper">
+        <div class="about__wrapper-text">
+          <h3 class="about__title">Верхушка <span class="about__title-red">КОДера</span></h3>
+          <p class="about__text">Мы небольшая но крайне продуктивная и сплочённая команда нужных вам специалистов,
+            которая может помочь вам с вашим проектом в кратчайшие сроки, в силу как раз небольшой команды.</p>
+        </div>
+
+        <img src="img/about-image.svg" alt="Icon: about-image" class="about__image">
+      </div>
+      <!-- /.about__wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section class="progect" id="progect">
+    <div class="container">
+      <h2 class="section-title section-title--botton">Наши проекты</h2>
+
+      <div class="progect__wrapper">
+        <img src="img/progect-1.jpg" alt="progect-image" class="progect__image">
+        <img src="img/progect-2.jpg" alt="progect-image" class="progect__image">
+        <img src="img/progect-3.jpg" alt="progect-image" class="progect__image">
+      </div>
+      <!-- /.progect__wrapper -->
+      <button class="progect__button">Ещё проекты</button>
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <form action="#" class="form" id="form">
+    <h2 class="form__title">Готовы с нами работать ?</h2>
+    <span class="form__subtitle">Тогда оставляйте заявку</span>
+    <div class="form__wrapper">
+      <div class="form__inputs">
+        <input type="text" placeholder="Ф.И.О" class="form__text form-input">
+        <input type="tel" name="num" id="tel" placeholder="Номер телефона" class="form__tel form-input">
+        <input type="email" name="email" id="email" placeholder="Почта" class="form__email form-input">
+      </div>
+      <img src="img/form-image.svg" alt="Image: form-image" class="form__image">
+      <button class="form__button">Отправить</button>
+    </div>
+    <!-- /.form__wrapper -->
+  </form>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__container">
+      <span class="footer__text">
+        <img src="img/footer-icon.svg" alt="Icon: footer-icon" class="footer__image">
+        2021 ВерхушкаКОДера.Все права защищены 
+      </span>
+      <div class="footer__social-networks">
+        <a href="#" class="footer__link"><img src="img/facebook.svg" alt="facebook" class="footer__icon-soci"></a>
+        <a href="#" class="footer__link"><img src="img/instagram.svg" alt="instagram" class="footer__icon-soci"></a>
+        <a href="#" class="footer__link"><img src="img/twit.svg" alt="twit" class="footer__icon-soci"></a>
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "laba_template",
+  "version": "2.0.5",
+  "description": "template server",
+  "main": "server.js",
+  "author": "CheK",
+  "scripts": {
+    "start": "node server.js",
+    "demon": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "rubles": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmyser/white-and-black-.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmyser/white-and-black-/issues"
+  },
+  "homepage": "https://github.com/cmyser/white-and-black-#readme"
+}
