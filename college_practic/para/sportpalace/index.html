@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Palace</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="modal-menu">
+        <nav class="header-nav">
+            <a href="#" class="header-nav__link">Инфоструктура</a>
+            <a href="#" class="header-nav__link">Виды деятельности
+            </a>
+            <a href="#" class="header-nav__link">Новости</a>
+            <a href="#" class="header-nav__link">Услуги </a>
+            <a href="#" class="header-nav__link">Расписание </a>
+            <a href="#" class="header-nav__link">Документация</a>
+        </nav>
+
+        <a class="header-phone" href="tel:+79999999909">
+            <div class="header-phone__icon" style="background-image: url(./img/icon-phone.svg);"></div>
+            <div class="header-phone__text">+7 (999) 999-99-09</div>
+        </a>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__logo">
+                    <div class="header__logo-icon" style="background-image: url(./img/logo.svg);"></div>
+                    <div class="header__logo-text">Sports Palace</div>
+                </div>
+
+                <nav class="header-nav">
+                    <a href="#" class="header-nav__link">Инфоструктура</a>
+                    <a href="#" class="header-nav__link">Виды деятельности
+                    </a>
+                    <a href="#" class="header-nav__link">Новости</a>
+                    <a href="#" class="header-nav__link">Услуги </a>
+                    <a href="#" class="header-nav__link">Расписание </a>
+                    <a href="#" class="header-nav__link">Документация</a>
+                </nav>
+
+                <a class="header-phone" href="tel:+79999999909">
+                    <div class="header-phone__icon" style="background-image: url(./img/icon-phone.svg);"></div>
+                    <div class="header-phone__text">+7 (999) 999-99-09</div>
+                </a>
+                <div class="burger__menu" onclick="countRabbits()">
+                    <div class="burger__menu-line"></div>
+                    <div class="burger__menu-line"></div>
+                    <div class="burger__menu-line"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="info" style="background-image: url(./img/img1.jpg);">
+        <div class="container">
+            <div class="info__container">
+                <h1 class="info__title">Дворец спорта - это</h1>
+                <p class="info__description">Универсальный спортивный комплекс в Вологде, Россия, домашняя арена
+                    женского баскетбольного клуба Вологда-Чеваката. Построен в 2006-2010 годах, открыт 24 декабря 2010
+                    года.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="infostructure b-m">
+        <div class="container">
+            <h2 class="title-h2 infostructure__title">Инфоструктура</h2>
+            <div class="infostructure__container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="infostructure-card">
+                            <div class="infostructure-card__img" style="background-image: url(./img/iiiiiii.webp);">
+                            </div>
+                            <div class="infostructure-card__info">
+                                <div class="infostructure-card__title">Бассейн</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="infostructure-card">
+                            <div class="infostructure-card__img" style="background-image: url(./img/iiiiiii.webp);">
+                            </div>
+                            <div class="infostructure-card__info">
+                                <div class="infostructure-card__title">Бассейн</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="infostructure-card">
+                            <div class="infostructure-card__img" style="background-image: url(./img/iiiiiii.webp);">
+                            </div>
+                            <div class="infostructure-card__info">
+                                <div class="infostructure-card__title">Бассейн</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="infostructure-card">
+                            <div class="infostructure-card__img" style="background-image: url(./img/iiiiiii.webp);">
+                            </div>
+                            <div class="infostructure-card__info">
+                                <div class="infostructure-card__title">Бассейн</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="infostructure-card">
+                            <div class="infostructure-card__img" style="background-image: url(./img/iiiiiii.webp);">
+                            </div>
+                            <div class="infostructure-card__info">
+                                <div class="infostructure-card__title">Бассейн</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work b-m">
+        <div class="container">
+            <h2 class="title-h2 work__title">Виды деятельности</h2>
+            <div class="work__item">
+                <div class="row">
+                    <div class="col-lg-6 col-12 ">
+                        <img src="./img/iiiiiii.webp" alt="#" class="work__img">
+                    </div>
+                    <div class="col-lg-6 col-12 ">
+                        <div class="worl__item-o">
+                            <div class="work__item-title">Бассейн</div>
+                            <div class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium iure magnam, sint maxime qui similique ad dolores odit. Placeat, quasi
+                                exercitationem. Nobis error officia facilis perferendis quaerat consequatur enim
+                                similique.
+                                Magni unde deserunt magnam pariatur aspernatur inventore nam nobis natus quod,
+                                distinctio, nemo nihil quo perferendis nisi! Repudiandae, nesciunt. Commodi itaque
+                                blanditiis at, unde accusamus iusto porro fugiat distinctio nam.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work__item">
+                <div class="row">
+                    <div class="col-lg-6 col-12  order-lg-2 order-1">
+                        <img src="./img/iiiiiii.webp" alt="#" class="work__img">
+                    </div>
+                    <div class="col-lg-6 col-12  order-lg-1 order-2">
+                        <div class="worl__item-o">
+                            <div class="work__item-title">Бассейн</div>
+                            <div class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium iure magnam, sint maxime qui similique ad dolores odit. Placeat, quasi
+                                exercitationem. Nobis error officia facilis perferendis quaerat consequatur enim
+                                similique.
+                                Magni unde deserunt magnam pariatur aspernatur inventore nam nobis natus quod,
+                                distinctio, nemo nihil quo perferendis nisi! Repudiandae, nesciunt. Commodi itaque
+                                blanditiis at, unde accusamus iusto porro fugiat distinctio nam.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work__item">
+                <div class="row">
+                    <div class="col-lg-6 col-12 ">
+                        <img src="./img/iiiiiii.webp" alt="#" class="work__img">
+                    </div>
+                    <div class="col-lg-6 col-12 ">
+                        <div class="worl__item-o">
+                            <div class="work__item-title">Бассейн</div>
+                            <div class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium iure magnam, sint maxime qui similique ad dolores odit. Placeat, quasi
+                                exercitationem. Nobis error officia facilis perferendis quaerat consequatur enim
+                                similique.
+                                Magni unde deserunt magnam pariatur aspernatur inventore nam nobis natus quod,
+                                distinctio, nemo nihil quo perferendis nisi! Repudiandae, nesciunt. Commodi itaque
+                                blanditiis at, unde accusamus iusto porro fugiat distinctio nam.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news b-m">
+        <div class="container">
+            <h2 class="title-h2 news__title">Новости</h2>
+            <div class="news__container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-card">
+                            <div class="news-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="news-card__title">Обновленый контент</div>
+                            <div class="news-card__description">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Quam est, architecto veniam voluptatem perferendis.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-card">
+                            <div class="news-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="news-card__title">Обновленый контент</div>
+                            <div class="news-card__description">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Quam est, architecto veniam voluptatem perferendis.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-card">
+                            <div class="news-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="news-card__title">Обновленый контент</div>
+                            <div class="news-card__description">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Quam est, architecto veniam voluptatem perferendis.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work b-m">
+        <div class="container">
+            <h2 class="title-h2 work__title">Услуги</h2>
+            <div class="work__item">
+                <div class="row">
+                    <div class="col-lg-6 col-12 ">
+                        <img src="./img/iiiiiii.webp" alt="#" class="work__img">
+                    </div>
+                    <div class="col-lg-6 col-12 ">
+                        <div class="worl__item-o">
+                            <div class="work__item-title">Запись в бассейн</div>
+                            <div class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium iure magnam, sint maxime qui similique ad dolores odit. Placeat, quasi
+                                exercitationem. Nobis error officia facilis perferendis quaerat consequatur enim
+                                similique.
+                                Magni unde deserunt magnam pariatur aspernatur inventore nam nobis natus quod,
+                                distinctio, nemo nihil quo perferendis nisi! Repudiandae, nesciunt. Commodi itaque
+                                blanditiis at, unde accusamus iusto porro fugiat distinctio nam.</div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work__item">
+                <div class="row">
+                    <div class="col-lg-6 col-12  order-lg-2 order-1">
+                        <img src="./img/iiiiiii.webp" alt="#" class="work__img">
+                    </div>
+                    <div class="col-lg-6 col-12  order-lg-1 order-2">
+                        <div class="worl__item-o">
+                            <div class="work__item-title">Запись в бассейн</div>
+                            <div class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium iure magnam, sint maxime qui similique ad dolores odit. Placeat, quasi
+                                exercitationem. Nobis error officia facilis perferendis quaerat consequatur enim
+                                similique.
+                                Magni unde deserunt magnam pariatur aspernatur inventore nam nobis natus quod,
+                                distinctio, nemo nihil quo perferendis nisi! Repudiandae, nesciunt. Commodi itaque
+                                blanditiis at, unde accusamus iusto porro fugiat distinctio nam.</div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work__item">
+                <div class="row">
+                    <div class="col-lg-6 col-12 ">
+                        <img src="./img/iiiiiii.webp" alt="#" class="work__img">
+                    </div>
+                    <div class="col-lg-6 col-12 ">
+                        <div class="worl__item-o">
+                            <div class="work__item-title">Запись в бассейн</div>
+                            <div class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium iure magnam, sint maxime qui similique ad dolores odit. Placeat, quasi
+                                exercitationem. Nobis error officia facilis perferendis quaerat consequatur enim
+                                similique.
+                                Magni unde deserunt magnam pariatur aspernatur inventore nam nobis natus quod,
+                                distinctio, nemo nihil quo perferendis nisi! Repudiandae, nesciunt. Commodi itaque
+                                blanditiis at, unde accusamus iusto porro fugiat distinctio nam.</div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="time b-m">
+        <div class="container">
+            <h2 class="title-h2 time__title">Расписание</h2>
+
+            <div class="time__container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="time-card">
+                            <div class="time-card__title">Бассейн</div>
+                            <div class="time-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="time-card__subtitle">Расписание</div>
+                            <div class="time-card__link">
+                                <div class="time-card__link-item">пн, ср: 7:00-12:00</div>
+                                <div class="time-card__link-item">вт, чт: 12:00 - 16:00</div>
+                                <div class="time-card__link-item">пт: 15:00-18:00</div>
+                            </div>
+                            <div class="time-card__subtitle">Тренер</div>
+                            <div class="time-card-teacher">
+
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__img" style="background-image: url(./img/ruc1.jpg);">
+                                    </div>
+                                    <div>
+                                        <div class="time-card-teacher__name ">Иванова. И.И</div>
+                                        <div class="time-card-teacher__leavel ">Опыт работы: 10лет</div>
+                                    </div>
+                                </div>
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__description">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Consequuntur optio eum nulla doloribus natus officiis
+                                        inventore dicta commodi sint ducimus sit at eos, quod pariatur maiores velit
+                                        ullam incidunt temporibus.</div>
+                                </div>
+                            </div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="time-card">
+                            <div class="time-card__title">Бассейн</div>
+                            <div class="time-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="time-card__subtitle">Расписание</div>
+                            <div class="time-card__link">
+                                <div class="time-card__link-item">пн, ср: 7:00-12:00</div>
+                                <div class="time-card__link-item">вт, чт: 12:00 - 16:00</div>
+                                <div class="time-card__link-item">пт: 15:00-18:00</div>
+                            </div>
+                            <div class="time-card__subtitle">Тренер</div>
+                            <div class="time-card-teacher">
+
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__img" style="background-image: url(./img/ruc1.jpg);">
+                                    </div>
+                                    <div>
+                                        <div class="time-card-teacher__name ">Иванова. И.И</div>
+                                        <div class="time-card-teacher__leavel ">Опыт работы: 10лет</div>
+                                    </div>
+                                </div>
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__description">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Consequuntur optio eum nulla doloribus natus officiis
+                                        inventore dicta commodi sint ducimus sit at eos, quod pariatur maiores velit
+                                        ullam incidunt temporibus.</div>
+                                </div>
+                            </div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="time-card">
+                            <div class="time-card__title">Бассейн</div>
+                            <div class="time-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="time-card__subtitle">Расписание</div>
+                            <div class="time-card__link">
+                                <div class="time-card__link-item">пн, ср: 7:00-12:00</div>
+                                <div class="time-card__link-item">вт, чт: 12:00 - 16:00</div>
+                                <div class="time-card__link-item">пт: 15:00-18:00</div>
+                            </div>
+                            <div class="time-card__subtitle">Тренер</div>
+                            <div class="time-card-teacher">
+
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__img" style="background-image: url(./img/ruc1.jpg);">
+                                    </div>
+                                    <div>
+                                        <div class="time-card-teacher__name ">Иванова. И.И</div>
+                                        <div class="time-card-teacher__leavel ">Опыт работы: 10лет</div>
+                                    </div>
+                                </div>
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__description">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Consequuntur optio eum nulla doloribus natus officiis
+                                        inventore dicta commodi sint ducimus sit at eos, quod pariatur maiores velit
+                                        ullam incidunt temporibus.</div>
+                                </div>
+                            </div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="time-card">
+                            <div class="time-card__title">Бассейн</div>
+                            <div class="time-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="time-card__subtitle">Расписание</div>
+                            <div class="time-card__link">
+                                <div class="time-card__link-item">пн, ср: 7:00-12:00</div>
+                                <div class="time-card__link-item">вт, чт: 12:00 - 16:00</div>
+                                <div class="time-card__link-item">пт: 15:00-18:00</div>
+                            </div>
+                            <div class="time-card__subtitle">Тренер</div>
+                            <div class="time-card-teacher">
+
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__img" style="background-image: url(./img/ruc1.jpg);">
+                                    </div>
+                                    <div>
+                                        <div class="time-card-teacher__name ">Иванова. И.И</div>
+                                        <div class="time-card-teacher__leavel ">Опыт работы: 10лет</div>
+                                    </div>
+                                </div>
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__description">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Consequuntur optio eum nulla doloribus natus officiis
+                                        inventore dicta commodi sint ducimus sit at eos, quod pariatur maiores velit
+                                        ullam incidunt temporibus.</div>
+                                </div>
+                            </div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="time-card">
+                            <div class="time-card__title">Бассейн</div>
+                            <div class="time-card__img" style="background-image: url(./img/iiiiiii.webp);"></div>
+                            <div class="time-card__subtitle">Расписание</div>
+                            <div class="time-card__link">
+                                <div class="time-card__link-item">пн, ср: 7:00-12:00</div>
+                                <div class="time-card__link-item">вт, чт: 12:00 - 16:00</div>
+                                <div class="time-card__link-item">пт: 15:00-18:00</div>
+                            </div>
+                            <div class="time-card__subtitle">Тренер</div>
+                            <div class="time-card-teacher">
+
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__img" style="background-image: url(./img/ruc1.jpg);">
+                                    </div>
+                                    <div>
+                                        <div class="time-card-teacher__name ">Иванова. И.И</div>
+                                        <div class="time-card-teacher__leavel ">Опыт работы: 10лет</div>
+                                    </div>
+                                </div>
+                                <div class="time-card-teacher__info">
+                                    <div class="time-card-teacher__description">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Consequuntur optio eum nulla doloribus natus officiis
+                                        inventore dicta commodi sint ducimus sit at eos, quod pariatur maiores velit
+                                        ullam incidunt temporibus.</div>
+                                </div>
+                            </div>
+                            <button href="#" class="btn-my work__btn">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doci b-m">
+        <div class="container">
+            <h2 class="title-h2 work__title">Документация</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="dici__img" style="background-image: url(./img/gg.jpg);"></div>
+
+                        </iframe>
+                        <a href="#" class="btn-my work__btn">Смотреть</a>
+                        <a href="#" class="btn-my work__btn" download>Скачать</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="dici__img" style="background-image: url(./img/gg.jpg);"></div>
+
+                        </iframe>
+                        <a href="#" class="btn-my work__btn">Смотреть</a>
+                        <a href="#" class="btn-my work__btn" download>Скачать</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="dici__img" style="background-image: url(./img/gg.jpg);"></div>
+
+                        </iframe>
+                        <a href="#" class="btn-my work__btn">Смотреть</a>
+                        <a href="#" class="btn-my work__btn" download>Скачать</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="dici__img" style="background-image: url(./img/gg.jpg);"></div>
+
+                        </iframe>
+                        <a href="#" class="btn-my work__btn">Смотреть</a>
+                        <a href="#" class="btn-my work__btn" download>Скачать</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <footer class="footer b-m" style="background: #3d63ad;">
+        <div class="container">
+            <div class="footer-header">
+                <div class="header__logo">
+                    <div class="header__logo-icon" style="background-image: url(./img/logo.svg);"></div>
+                    <div class="header__logo-text" style="color: #fff">Sports Palace</div>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#" class="header-nav__link">Инфоструктура</a>
+                    <a href="#" class="header-nav__link">Виды деятельности
+                    </a>
+                    <a href="#" class="header-nav__link">Новости</a>
+                    <a href="#" class="header-nav__link">Услуги </a>
+                    <a href="#" class="header-nav__link">Расписание </a>
+                    <a href="#" class="header-nav__link">Документация</a>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__containr">
+                <div class="footer__portal">
+                    <div class="footer__title">
+                        Государственные порталы:
+                    </div>
+                    <a  class="footer__link">Гос
+                        Портал</a>
+                    <a  class="footer__link">Гос
+                        Портал</a>
+                    <a  class="footer__link">Гос
+                        Портал</a>
+                    <a  class="footer__link">Гос
+                        Портал</a>
+                    <a  class="footer__link">Гос
+                        Портал</a>
+                </div>
+                <div class="footer__media">
+                    <div class="footer__title">
+                        Соц сети
+                    </div>
+                    <a href="#" class="footer__media-item">
+                        <svg height="100%" style="enable-background:new 0 0 512 512;" version="1.1"
+                            viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="vk_._logo_._social_._media__x2C__icon">
+                                <g>
+                                    <path
+                                        d="M425.614,86.344C382.172,42.91,322.258,16.066,255.96,16.066    c-66.297,0-126.212,26.844-169.654,70.277c-43.438,43.447-70.277,103.494-70.277,169.654c0,66.297,26.839,126.211,70.277,169.659    c43.442,43.438,103.357,70.276,169.654,70.276c66.298,0,126.212-26.839,169.654-70.276    c43.438-43.448,70.282-103.362,70.282-169.659C495.896,189.838,469.053,129.791,425.614,86.344z M412.332,412.498    C372.339,452.486,317.071,477.2,255.96,477.2s-116.379-24.714-156.372-64.702c-40.112-40.121-64.826-95.385-64.826-156.5    c0-61.107,24.714-116.375,64.826-156.363C139.581,59.646,194.849,34.8,255.96,34.8s116.379,24.847,156.372,64.835    c40.117,39.988,64.821,95.256,64.821,156.363C477.153,317.113,452.449,372.377,412.332,412.498z"
+                                        style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff;" />
+                                    <path
+                                        d="M388.678,189.175c-3.586-2.654-16.471-2.654-29.224-2.654    c-13.021,0.265-26.044,0.265-29.101,1.462c-2.782,1.061-9.028,16.207-17.129,31.746c-9.308,17.545-20.593,34.547-27.771,34.272    c-9.43,0-7.168-28.826-6.506-50.209c0.128-13.954-2.129-18.474-4.121-19.661c-4.917-3.459-18.464-6.771-18.464-6.771    s-40.661-3.062-46.367,14.475c7.836,1.064,21.123-1.334,15.941,53.001c-0.397,2.664-6.246,24.979-25.111-5.181    c-4.784-7.566-22.846-52.869-29.224-53.134c-20.867-0.402-41.583-1.33-48.751,2.654c-6.781,3.989,9.028,35.072,35.734,76.793    c21.648,34.272,44.635,60.847,84.491,67.485c7.571,0.804,26.972,1.59,33.218-1.325c4.111-1.997-1.069-31.485,13.149-34.415    c6.246-1.191,30.549,30.828,39.714,34.415c5.594,2.257,17.811,3.185,30.298,2.649c13.552-0.393,28.954,1.335,30.416-7.963    c3.327-20.328-41.039-46.907-42.24-59.39c-1.065-9.033,16.211-25.637,24.974-38.394    C383.492,213.619,395.459,195.023,388.678,189.175z"
+                                        style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff;" />
+                                </g>
+                            </g>
+                            <g id="Layer_1" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const burger = document.querySelector('.burger__menu');
+        function countRabbits (){
+            burger.classList.toggle('burger__menu--active')
+           document.querySelector('.modal-menu').classList.toggle('modal-menu--active')
+           document.querySelector('body').classList.toggle('bg')
+        }
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                776: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                996: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                }
+            },
+        });
+    </script>
+</body>
+
+</html>

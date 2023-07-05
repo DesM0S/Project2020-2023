@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>StroyDom</title>
+</head>
+
+<body>
+    <div class="modal-reg ">
+        <div class="modal-reg__container">
+            <div class="whod">
+                <h2 class="title-h2 modal-reg__title">Вход</h2>
+                <input type="email" placeholder="Логин">
+                <input type="password" placeholder="Пароль">
+                <button class="btn-my modal-reg__btn btn-my-w btn-my-w-b">Войти</button>
+                <div style="cursor:pointer" id="register-link">Зарегистрироваться</div>
+            </div>
+            <div class="modal-reg-reg modal-regnoactive">
+                <h2 class="title-h2 modal-reg__title">Регистрация</h2>
+                <input type="email" placeholder="почта">
+                <input type="password" placeholder="Пароль">
+                <button class="btn-my modal-reg__btn btn-my-w btn-my-w-b">Зарегистрироваться</button>
+                <div style="cursor:pointer" id="whod-link">Войти</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-menu">
+        <div class="container">
+            <div class="header__top-tel">
+                <div class="header__top-icon" style="background-image: url(./img/maps-flag.svg);"></div>
+                <div class="header__top-text"><span>+7 (666) 51-66-04</span>
+                    ул. Ленинградская, д. 123</div>
+            </div>
+
+            <div class="header__top-text">Мы предлагаем самые быстрое услуги по жилищному строительству</div>
+            <nav class="header-nav">
+                <a href="#" class="header-nav__link">Виды работ</a>
+                <a href="#" class="header-nav__link">Новости</a>
+                <a href="#" class="header-nav__link">Услуги</a>
+                <a href="#" class="header-nav__link">Техника и оборудование</a>
+                <a href="#" class="header-nav__link">Документы</a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__top modile-hiden">
+            <div class="container">
+                <div class="header__top-container">
+                    <div class="header__top-tel">
+                        <div class="header__top-icon" style="background-image: url(./img/maps-flag.svg);"></div>
+                        <div class="header__top-text"><span>+7 (666) 51-66-04</span>
+                            ул. Ленинградская, д. 123</div>
+                    </div>
+
+                    <div class="header__top-text">Мы предлагаем самые быстрое услуги по жилищному строительству</div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__container">
+                    <a href="./" class="header__logo" style="background-image: url(./img/logo.svg) ;"></a>
+
+                    <nav class="header-nav modile-hiden">
+                        <a href="#" class="header-nav__link">Виды работ</a>
+                        <a href="#" class="header-nav__link">Новости</a>
+                        <a href="#" class="header-nav__link">Услуги</a>
+                        <a href="#" class="header-nav__link">Техника и оборудование</a>
+                        <a href="#" class="header-nav__link">Документы</a>
+                    </nav>
+
+                    <div class="header__reg modile-hiden">Войти</div>
+
+                    <div class="burger-menu">
+                        <div class="burger-menu__item"></div>
+                        <div class="burger-menu__item"></div>
+                        <div class="burger-menu__item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="full-scrin" style="background-image: url(./img/fullscrin.jpg);">
+
+        <h1 class="title-h1">
+            “Строй дом” Компания по
+            малому жилищному строительству
+        </h1>
+        <button class="btn-my full-scrin__btn btn-my-w">Оформить заказ</button>
+    </section>
+
+    <section class="vid m-top">
+        <div class="container">
+            <h2 class="title-h2">Виды работ</h2>
+        </div>
+        <div class="swiper vid-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="vid-card">
+                        <div class="vid-card__img" style="background-image: url(./img/vid/Rectangle\ 183.jpg);"></div>
+                        <div class="vid-card-info">
+                            <div class="vid-card-info__title title-subtitle">Дома из бруса</div>
+                            <div class="vid-card-info__description">Мы используем только экологичеки чистые материалы
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 185.png);"></div>
+                                <div class="vid-card-info-items__text">Брусья </div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 186.png);"></div>
+                                <div class="vid-card-info-items__text">Фундамент</div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 187.png);"></div>
+                                <div class="vid-card-info-items__text">Кровля </div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 188.png);"></div>
+                                <div class="vid-card-info-items__text">Окна</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="vid-card">
+                        <div class="vid-card__img" style="background-image: url(./img/vid/Rectangle\ 183.jpg);"></div>
+                        <div class="vid-card-info">
+                            <div class="vid-card-info__title title-subtitle">Дома из бруса</div>
+                            <div class="vid-card-info__description">Мы используем только экологичеки чистые материалы
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 185.png);"></div>
+                                <div class="vid-card-info-items__text">Брусья </div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 186.png);"></div>
+                                <div class="vid-card-info-items__text">Фундамент</div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 187.png);"></div>
+                                <div class="vid-card-info-items__text">Кровля </div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 188.png);"></div>
+                                <div class="vid-card-info-items__text">Окна</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="vid-card">
+                        <div class="vid-card__img" style="background-image: url(./img/vid/Rectangle\ 183.jpg);"></div>
+                        <div class="vid-card-info">
+                            <div class="vid-card-info__title title-subtitle">Дома из бруса</div>
+                            <div class="vid-card-info__description">Мы используем только экологичеки чистые материалы
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 185.png);"></div>
+                                <div class="vid-card-info-items__text">Брусья </div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 186.png);"></div>
+                                <div class="vid-card-info-items__text">Фундамент</div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 187.png);"></div>
+                                <div class="vid-card-info-items__text">Кровля </div>
+                            </div>
+                            <div class="vid-card-info-items">
+                                <div class="vid-card-info-items__img"
+                                    style="background-image: url(./img/vid/Rectangle\ 188.png);"></div>
+                                <div class="vid-card-info-items__text">Окна</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="vid-swiper-btn vid-swiper-btn-prev"></div>
+            <div class="vid-swiper-btn vid-swiper-btn-next"></div>
+
+        </div>
+    </section>
+
+    <section class="news m-top">
+        <div class="container">
+            <h2 class="title-h2">Новости</h2>
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="news-card">
+                        <div class="news-card-sost">Идет подбор материалов</div>
+                        <div class="news-card__img" style="background-image: url(./img/news.jpg);"></div>
+                        <div class="news-card-info">
+                            <div class="news-card-info__title title-subtitle">Строительство загородного дома из бруса
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Начало: </div>
+                                <div class="news-card-info-date__date">12.08.2022</div>
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Конец: </div>
+                                <div class="news-card-info-date__date">~24.10.2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="news-card">
+                        <div class="news-card-sost">Идет подбор материалов</div>
+                        <div class="news-card__img" style="background-image: url(./img/news.jpg);"></div>
+                        <div class="news-card-info">
+                            <div class="news-card-info__title title-subtitle">Строительство загородного дома из бруса
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Начало: </div>
+                                <div class="news-card-info-date__date">12.08.2022</div>
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Конец: </div>
+                                <div class="news-card-info-date__date">~24.10.2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="news-card">
+                        <div class="news-card-sost">Идет подбор материалов</div>
+                        <div class="news-card__img" style="background-image: url(./img/news.jpg);"></div>
+                        <div class="news-card-info">
+                            <div class="news-card-info__title title-subtitle">Строительство загородного дома из бруса
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Начало: </div>
+                                <div class="news-card-info-date__date">12.08.2022</div>
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Конец: </div>
+                                <div class="news-card-info-date__date">~24.10.2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="news-card">
+                        <div class="news-card-sost">Идет подбор материалов</div>
+                        <div class="news-card__img" style="background-image: url(./img/news.jpg);"></div>
+                        <div class="news-card-info">
+                            <div class="news-card-info__title title-subtitle">Строительство загородного дома из бруса
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Начало: </div>
+                                <div class="news-card-info-date__date">12.08.2022</div>
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Конец: </div>
+                                <div class="news-card-info-date__date">~24.10.2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="news-card">
+                        <div class="news-card-sost">Идет подбор материалов</div>
+                        <div class="news-card__img" style="background-image: url(./img/news.jpg);"></div>
+                        <div class="news-card-info">
+                            <div class="news-card-info__title title-subtitle">Строительство загородного дома из бруса
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Начало: </div>
+                                <div class="news-card-info-date__date">12.08.2022</div>
+                            </div>
+                            <div class="news-card-info-date">
+                                <div class="news-card-info-date__name">Конец: </div>
+                                <div class="news-card-info-date__date">~24.10.2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-my news__btn btn-my-w btn-my-w-b">Оформить свой заказ</button>
+        </div>
+    </section>
+
+    <section class="servises m-top">
+        <div class="container">
+            <h2 class="title-h2">Услуги</h2>
+            <div class="btns">
+                <button class="btn-my servises__btn-tab btn-my-w btn-my-w-tab btn-my-w-tab--active">Бани</button>
+                <button class="btn-my servises__btn-tab btn-my-w btn-my-w-tab">Дома из бруса</button>
+                <button class="btn-my servises__btn-tab btn-my-w btn-my-w-tab">Подсобные помещения</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="servises-img" style="background-image: url(./img/servises.jpg);"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="servises__container">
+                        <div class="servises__title title-subtitle">Дома из бруса</div>
+                        <div class="servises__description servises__text">Картельные сговоры не допускают ситуации, при
+                            которой активно развивающиеся страны третьего мира набирают популярность среди определенных
+                            слоев населения, а значит, должны быть смешаны с не уникальными данными до степени
+                            совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Учитывая ключевые
+                            сценарии поведения, синтетическое тестирование играет важную роль в формировании
+                            приоретизации разума над эмоциями. Являясь всего лишь частью общей картины, некоторые
+                            особенности внутренней политики призывают нас к новым свершениям, которые, в свою очередь,
+                            должны быть ограничены исключительно образом мышления.</div>
+
+                        <div class="servises__list servises__text">Учитывая ключевые сценарии поведения, синтетическое
+                            тестирование играет важную роль в формировании приоретизации разума над эмоциями.</div>
+                        <div class="servises__list servises__text">Учитывая ключевые сценарии поведения, синтетическое
+                            тестирование играет важную роль.</div>
+
+                    </div>
+                    <button class="btn-my servises__btn btn-my-w btn-my-w-b">Перейти к оформлению</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools m-top">
+        <div class="container">
+            <h2 class="title-h2">Техника и оборудование</h2>
+            <div class="btns">
+                <button class="btn-my servises__btn-tab btn-my-w btn-my-w-tab btn-my-w-tab--active">Бани</button>
+                <button class="btn-my servises__btn-tab btn-my-w btn-my-w-tab">Дома из бруса</button>
+                <button class="btn-my servises__btn-tab btn-my-w btn-my-w-tab">Подсобные помещения</button>
+            </div>
+            <div class="tools__container">
+                <h3 class="tools__title title-h3">Техника</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="tools-card">
+                            <div class="tools-card__img" style="background-image: url(./img/tools.jpg);"></div>
+                            <div class="tools-card__title title-subtitle">Трактор подъемник</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="tools-card">
+                            <div class="tools-card__img" style="background-image: url(./img/tools.jpg);"></div>
+                            <div class="tools-card__title title-subtitle">Трактор подъемник</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="tools-card">
+                            <div class="tools-card__img" style="background-image: url(./img/tools.jpg);"></div>
+                            <div class="tools-card__title title-subtitle">Трактор подъемник</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tools__container">
+                <h3 class="tools__title title-h3">Техника</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="tools-card">
+                            <div class="tools-card__img" style="background-image: url(./img/tools.jpg);"></div>
+                            <div class="tools-card__title title-subtitle">Трактор подъемник</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="tools-card">
+                            <div class="tools-card__img" style="background-image: url(./img/tools.jpg);"></div>
+                            <div class="tools-card__title title-subtitle">Трактор подъемник</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="tools-card">
+                            <div class="tools-card__img" style="background-image: url(./img/tools.jpg);"></div>
+                            <div class="tools-card__title title-subtitle">Трактор подъемник</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doci m-top">
+        <div class="container">
+            <h2 class="title-h2">Документы</h2>
+        </div>
+        <div class="swiper doci-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="doci__card">
+                        <div class="doci__card-img" style="background-image: url(./img/doci.jpg);"></div>
+                        <div class="doci__title title-subtitle">Лицензия</div>
+                        <div class="doci__btns">
+                            <button class="btn-my doci__btn btn-my-w btn-my-w-b">Скачать</button>
+                            <button class="btn-my doci__btn btn-my-w btn-my-w-b">Смотреть</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="doci__card">
+                        <div class="doci__card-img" style="background-image: url(./img/doci.jpg);"></div>
+                        <div class="doci__title title-subtitle">Лицензия</div>
+                        <div class="doci__btns">
+                            <button class="btn-my doci__btn btn-my-w btn-my-w-b">Скачать</button>
+                            <button class="btn-my doci__btn btn-my-w btn-my-w-b">Смотреть</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="doci__card">
+                        <div class="doci__card-img" style="background-image: url(./img/doci.jpg);"></div>
+                        <div class="doci__title title-subtitle">Лицензия</div>
+                        <div class="doci__btns">
+                            <button class="btn-my doci__btn btn-my-w btn-my-w-b">Скачать</button>
+                            <button class="btn-my doci__btn btn-my-w btn-my-w-b">Смотреть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="doci-swiper-btn doci-swiper-btn-prev"></div>
+            <div class="doci-swiper-btn doci-swiper-btn-next"></div>
+
+        </div>
+    </section>
+
+    <footer class="footer m-top">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__up-container">
+                    <a href="./" class="footer__logo" style="background-image: url(./img/logo.svg)"></a>
+                    <a href="#" class="footer__scroll-up" style="background-image: url(./img/up-arrow.svg);"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-conyainer">
+                    <div class="footer-item">
+                        <div class="footer__tilte">Навигация</div>
+                        <a href="#" class="footer__link">Виды работ</a>
+                        <a href="#" class="footer__link">Новости</a>
+                        <a href="#" class="footer__link">Услуги</a>
+                        <a href="#" class="footer__link">Техника и оборудование</a>
+                        <a href="#" class="footer__link">Документы</a>
+
+
+
+
+                    </div>
+                    <div class="footer-item">
+                        <div class="footer__tilte">Контакты</div>
+                        <a href="#" class="footer__link">+7 (6666) 72-66-20</a>
+                        <a href="#" class="footer__link">+7 (6666) 72-66-61</a>
+                        <a href="#" class="footer__link footer__link-m">stroydom1989@gmail.com </a>
+                        <a href="#" class="footer__link footer__link-m">пн-пт 08:00-20:00, СБ 09:00-14:00, вс
+                            выходной</a>
+                    </div>
+                    <div class="footer-item">
+                        <div class="footer__tilte">Соц сети</div>
+                        <a href="#" class="footer__link">ВКонтакте</a>
+                        <a href="#" class="footer__link">Телеграмм</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-down">
+            <div class="container">
+                © 2022 StroyDom
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const vidSwiper = new Swiper('.vid-swiper', {
+            loop: true,
+            slidesPerView: 2,
+            spaceBetween: 30,
+            // pagination: {
+            //     el: '.swiper-pagination',
+            // },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.vid-swiper-btn-next',
+                prevEl: '.vid-swiper-btn-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                992: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                }
+            }
+
+        });
+        const dociSwiper = new Swiper('.doci-swiper', {
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 20,
+            // pagination: {
+            //     el: '.swiper-pagination',
+            // },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.doci-swiper-btn-next',
+                prevEl: '.doci-swiper-btn-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                759: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
+
+        });
+
+        let reg = document.querySelector('.header__reg');
+        let modal = document.querySelector('.modal-reg')
+
+        let whod = document.querySelector('.whod')
+        let modalRreg = document.querySelector('.modal-reg-reg')
+        let linkreg = document.querySelector('#register-link')
+        let linkwhood = document.querySelector('#whod-link')
+        linkreg.addEventListener('click', function () {
+            whod.classList.toggle('modal-regnoactive')
+            modalRreg.classList.toggle('modal-regnoactive')
+        })
+        linkwhood.addEventListener('click', function () {
+            whod.classList.toggle('modal-regnoactive')
+            modalRreg.classList.toggle('modal-regnoactive')
+        })
+        reg.addEventListener('click', function () {
+            modal.classList.toggle('modal-reg--active')
+            document.querySelector('body, html').classList.toggle('bgh')
+        })
+        modal.onclick = function (event) {
+            let target = event.target;
+            if (target == document.querySelector('.modal-reg--active')) {
+                modal.classList.toggle('modal-reg--active')
+                document.querySelector('body, html').classList.toggle('bgh')
+            }
+        }
+
+        let burger = document.querySelector('.burger-menu')
+        burger.addEventListener('click', function () {
+            burger.classList.toggle('burger-menu--active')
+            document.querySelector('.modal-menu').classList.toggle('modal-menu--active')
+        })
+    </script>
+</body>
+
+</html>
