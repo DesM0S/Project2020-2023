@@ -24,8 +24,8 @@ https://desm0s.github.io/Project2020-2023/registration_start_2020/index.html <br
 
 Курсовой проект перевод числа в пропись - https://desm0s.github.io/Project2020-2023/college_practic/NFS/ <br>
 Проект todolist - https://desm0s.github.io/Project2020-2023/TodoList/site/ <br>
-
 другие проекты написаны на node, на гитхабе не продемонстрировать, можите их запустить они в этой папке - https://github.com/DesM0S/Project2020-2023/tree/main/college_practic
 
 Проект на хакатоне - https://desm0s.github.io/Project2020-2023/hakaton_2021/ - тут к нам на хакатон пришел спикер, в его компанию требовался сотрудник (верстальшик\техподержка) я с ним познакомился и вечером созвонились и на следующий день меня уже приняли в их компанию
 
+# Прохождение курса от gloacademy

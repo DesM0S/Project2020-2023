@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+h3{
+  margin: 0;
+}
+.card {
+  width: 300px;
+  border: 1px solid #e8e8e8;
+  margin: 5px 10px;
+  
+}
+.card-content {
+  text-align: center;
+  padding: 61px 46px 50px 49px;
+}
+
+.title {
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #212121;
+}
+
+.price {
+  margin-bottom: 49px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #5ba2a9;
+}
+.price span {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.services {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 47px;
+
+  font-size: 14px;
+  font-weight: 300;
+  color: #454545;
+  list-style: none;
+}
+.services li {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: none;
+  width: 200px;
+  padding: 21px 0;
+  border: 2px solid #e8e8e8;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #5a5a5a;
+}

@@ -1,0 +1,817 @@
+@font-face {
+  font-family: "MuseoCyrl-900";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/MuseoCyrl-900.woff) format("woff"), url(../fonts/MuseoCyrl-900.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Tahoma";
+  src: url("fonts/Tahoma-Bold.woff2") format("woff2"), url("fonts/Tahoma-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tahoma";
+  src: url("fonts/Tahoma.woff2") format("woff2"), url("fonts/Tahoma.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+.display-none{
+  display: none;
+}
+body {
+  font-family: "Tohoma", sans-serif;
+  color: #202020;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 19px 0;
+  background-color: #f1f1f1;
+  z-index: 2;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1140px;
+  margin: auto;
+}
+.logo {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  margin: 0 11px;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+.login {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* главная секция */
+.hero {
+  margin-top: 54px;
+  padding-top: 63px;
+  padding-bottom: 71px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+
+  max-width: 1140px;
+  margin: auto;
+}
+.img-book {
+  position: relative;
+  margin-right: 122px;
+  max-width: 460px;
+}
+.hero-img {
+  width: auto;
+}
+.discount {
+  position: absolute;
+  top: 23px;
+  right: 0;
+
+  padding: 12px 18px;
+  background-color: #c93535;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.hero-text {
+}
+.author {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.title {
+  font-family: "MuseoCyrl-900", serif;
+  margin-top: 0;
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.subtitle {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+.info-text {
+  flex-basis: 45%;
+  font-style: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.date {
+}
+.type {
+}
+.format {
+}
+.age,
+.type {
+  margin-bottom: 0;
+}
+
+.price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+  flex-grow: 1;
+}
+.like {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.like > img {
+  max-width: 26px;
+  max-height: 23px;
+  margin-right: 10px;
+}
+.priceteg {
+  display: block;
+  font-size: 55px;
+  font-weight: 400;
+  margin-right: 64px;
+}
+.favorites {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+  flex-grow: 1;
+}
+.buttons {
+}
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.button-primary {
+  padding: 20px 60px;
+  background-color: #f89c02;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.button-outline {
+  padding: 20px 70px;
+  color: #f89c02;
+  border: 2px solid #f89c02;
+  text-decoration: none;
+}
+
+/* об книге */
+.about {
+  padding: 92px 0;
+  background-color: #f1f1f1;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  max-width: 1140px;
+  margin: auto;
+}
+.about-book {
+  max-width: 454px;
+}
+/* .about-book > p {
+  margin-bottom: 20px;
+} */
+.section-title {
+  line-height: 24px;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: inherit;
+}
+.title-about {
+  margin-bottom: 35px;
+}
+.about-text {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: inherit;
+}
+.about-after {
+  max-width: 552px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  border: 1px solid #f3f3f3;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 120px 0px rgba(161, 161, 161, 0.07);
+  border-radius: 10px;
+  padding: 65px 53px 68px 53px;
+  margin-right: 10px;
+}
+.author-avatar {
+  width: 100px;
+  height: 100px;
+
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 21px;
+}
+.abut-bio {
+  flex-grow: 1;
+}
+.author-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.author-link {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+.author-text {
+  margin-top: 24px;
+  flex-basis: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* о читателях */
+.readers {
+  background-color: #ffffff;
+  padding: 90px 0 105px;
+}
+.readers-container {
+  max-width: 1140px;
+  margin: auto;
+}
+.readers-img-container {
+  margin-top: 57px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.readers-img {
+  width: 165px;
+  height: 165px;
+
+  object-fit: cover;
+  margin-bottom: 29px;
+}
+.readers-img:nth-last-child(-n + 6) {
+  margin-bottom: 0;
+}
+/* подвал */
+.footer {
+  background-color: #f1f1f1;
+  padding-top: 59px;
+  padding-bottom: 90px;
+}
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+}
+.footer-title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+.footer-list {
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.item-link {
+  text-decoration: none;
+  color: #202020;
+}
+.requisites {
+  margin-right: 165px;
+}
+.information {
+  margin-right: 160px;
+}
+.kontaks {
+}
+/* top up */
+.top-btn {
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+
+  background: #fff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 120px 0px rgba(161, 161, 161, 0.07);
+  border-radius: 4px;
+  padding: 18px;
+}
+.img-top-btn {
+  transform: rotate(90deg);
+  width: 18px;
+  height: 16px;
+}
+@media (max-width: 1200px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 970px;
+  }
+  .hero{
+    padding-bottom: 95px;
+  }
+  .img-book {
+    max-width: unset;
+    min-width: 390px;
+    height: 548px;
+    margin: 0;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-text{
+    margin-left: 30px;
+  }
+  .about-book {
+    width: 367px;
+    margin-right: 0px;
+  }
+  .readers {
+    padding-top: 70px;
+    padding-bottom: 85px;
+  }
+  .requisites {
+    margin-right: 175px;
+  }
+  .readers-img {
+    width: 139px;
+    height: 139px;
+  }
+}
+@media (max-width: 992px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 760px;
+  }
+  .hero-container{
+    align-items: start;
+  }
+  .hero {
+    margin-top: 59px;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+  }
+
+  .nav {
+    display: none;
+  }
+  .img-book {
+    min-width: none;
+    min-width: 298px;
+    height: auto;
+  }
+  .hero-text{
+    margin-top: 10px;
+  }
+  .discount {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+  .author {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .title {
+    font-size: 46px;
+    margin-bottom: 0px;
+  }
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+  .age,
+  .format {
+    flex-grow: 1;
+  }
+  .info {
+    margin-bottom: 20px;
+  }
+  .price {
+    margin-bottom: 25px;
+  }
+  .button {
+    font-size: 14px;
+  }
+  .button-primary {
+    padding: 16px 42px;
+    background-color: #f89c02;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  .button-outline {
+    padding: 16px 52px;
+    color: #f89c02;
+    border: 2px solid #f89c02;
+    text-decoration: none;
+  }
+  .about {
+    padding: 81px 0;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+  .about-book {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 82px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .title-about {
+    margin-bottom: 29px;
+  }
+  .readers-img {
+    width: 165px;
+    height: 165px;
+  }
+  .readers-img:nth-last-child(-n + 4) {
+    display: none;
+  }
+  .readers-img:nth-last-child(-n + 8) {
+    margin-bottom: 0;
+  }
+  .requisites {
+    width: 35.5%;
+    margin-right: 60px;
+  }
+  .information{
+    width: 37%;
+    margin-right: 70px;
+  }
+  .kontaks{
+    width: 25%;
+  }
+  .footer-container {
+    font-size: 14px;
+  }
+  .footer-title{
+    margin-bottom: 20px;
+  }
+  .footer{
+    padding-top: 50px;
+  }
+  .top-btn {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 560px;
+  }
+  .header{
+    padding: 22px 0;
+  }
+  .hero{
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .hero-container {
+    flex-wrap: wrap;
+  }
+  .img-book {
+    min-width: 560px;
+    margin-bottom: 40px;
+  }
+  .display-none{
+    display: block;
+    margin: 0;
+  }
+  .hero-text{
+    margin-left: 0;
+  }
+  .about{
+    padding-bottom: 90px;
+  }
+  .about-after {
+    font-size: 16px;
+  }
+  .title-about{
+    margin-bottom: 25px;
+  }
+  .about-book{
+    margin-bottom: 55px;
+  }
+  .readers-img:nth-last-child(-n + 6) {
+    display: none;
+  }
+  .readers-img:nth-last-child(-n + 10) {
+    margin-bottom: 0;
+  }
+  .information {
+    margin: 0;
+  }
+  .requisites {
+    margin-bottom: 60px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  .footer {
+    padding-bottom: 78px;
+  }
+  
+  .information, .requisites, .kontaks{
+    margin-right: 0;
+    width: 45%;
+  }
+  .requisites{
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .footer{
+    padding-top: 55px;
+  }
+}
+@media (max-width: 576px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 470px;
+  }
+  .hero {
+    padding: 42px 0 64px;
+  }
+  .img-book{
+    min-width: 477px;
+  }
+  .favorites {
+    display: none;
+  }
+  .like {
+    width: 30px;
+  }
+  .priceteg {
+    margin-right: 24px;
+  }
+  .author {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .info-text {
+    flex-basis: 100%;
+  }
+  .info {
+    margin-bottom: 10px;
+  }
+  .info-text{
+    margin-bottom: 15px;
+  }
+  .button {
+    width: 100%;
+    font-size: 16px;
+  }
+  .button-primary {
+    padding: 26px 0px;
+    margin-bottom: 20px;
+  }
+  .button-outline {
+    padding: 28px 0px;
+    text-align: center;
+    display: block;
+  }
+  .about {
+    padding: 60px 0;
+    padding-bottom: 100px;
+  }
+  .about-text{
+    margin-bottom: 25px;
+  }
+  .about-book{
+    margin-bottom: 40px;
+  }
+  .readers {
+    padding: 55px 0 69px;
+  }
+  .requisites {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .readers-img {
+    width: 144px;
+    height: 144px;
+  }
+  .information {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .author-avatar {
+    width: 66px;
+    height: 66px;
+  }
+  .author-text {
+    font-size: 14px;
+  }
+  .about-after{
+    padding: 55px 40px 35px 37px;
+  }
+  .readers-img-container{
+    margin-top: 35px;
+  }
+}
+@media (max-width: 530px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 400px;
+  }
+  .img-book{
+    min-width: unset;
+    max-width: 300px;
+  }
+  .readers-img:nth-last-child(-n + 8) {
+    display: none;
+  }
+  .readers-img:nth-last-child(-n + 10) {
+    margin-bottom: 0;
+  }
+  .readers-img {
+    width: 165px;
+    height: 165px;
+  }
+  .readers-img-container {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 440px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 320px;
+  }
+  .header-container {
+    max-width: 280px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+  .readers-img {
+    width: 124px;
+    height: 124px;
+  }
+  .about-after {
+    padding: 44px 24px;
+  }
+  .author-avatar {
+    margin-right: 10px;
+  }
+  .author {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .info-text {
+    font-style: 14px;
+  }
+}
+@media (max-width: 350px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 280px;
+  }
+  .about-after {
+    position: relative;
+  }
+  .abut-bio{
+    width: 50%;
+  }
+  .author-link,
+  .author-name {
+    font-size: 14px;
+  }
+  .readers {
+    padding-bottom: 60px;
+  }
+  .display-none{
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 270px;
+  }
+  .img-book{
+    margin-bottom: 20px;
+  }
+  .button-primary {
+    padding: 16px 0;
+  }
+  .button-outline {
+    padding: 16px 0;
+  }
+  .about-after{
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .abut-bio{
+    width: 50%;
+  }
+  .about-after > p{
+    margin-top: 15px;
+  }
+  .about{
+    padding-bottom: 40px;
+  }
+  .kontaks{
+    width: 100%;
+  }
+}

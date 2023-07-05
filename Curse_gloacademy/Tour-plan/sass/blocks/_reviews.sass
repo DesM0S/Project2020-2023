@@ -1,0 +1,103 @@
+.reviews
+  padding: 40px 0 70px 0
+  &__title
+    margin: 0
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    margin-bottom: 70px
+
+  &-slider
+    position: relative
+    &__item
+      display: flex
+      flex-direction: column
+      text-align: center
+      position: relative
+
+      max-width: 731px
+      margin: 45px auto 0
+      padding: 0 62px 30px
+
+      background-color: #fff
+      border-radius: 8px
+      &::after
+        content: ''
+        background-image: url(../img/quote-left.svg)
+        position: absolute
+        top: 14px
+        left: 61px
+        width: 70px
+        height: 48px
+      &::before
+        content: ''
+        background-image: url(../img/quote-right.svg)
+        position: absolute
+        top: 119px
+        right: 60px
+        width: 70px
+        height: 48px
+
+    &__profile
+      margin-top: -45px
+      margin-bottom: 30px
+    &__avatar
+      width: 90px
+      height: 90px
+      margin-bottom: 7px
+      object-fit: cover
+      border-radius: 50%
+    &__username
+      margin: 0
+      font-weight: bold
+      font-size: 12px
+      line-height: 15px
+      color: $primary
+      margin-bottom: 5px
+    &__date
+      font-weight: normal
+      font-size: 10px
+      line-height: 13px
+      color: #000000
+
+    &__rating
+      margin-top: 4px
+      display: flex
+      align-items: center
+      justify-content: center
+    &__text
+      max-width: 537px
+      font-weight: normal
+      font-size: 12px
+      line-height: 160%
+      text-align: justify
+      margin: auto
+      z-index: 2
+    &__button
+      position: absolute
+      top: 45%
+      transform: translateY(-45%)
+      width: 30px
+      height: 30px
+      cursor: pointer
+
+      background-color: transparent
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 10px
+
+      border: none
+      outline: none
+      z-index: 10
+      &--prev
+        background-image: url(../img/reviews-arrow-left.svg)
+        left: 18px
+      &--next
+        background-image: url(../img/reviews-arrow-right.svg)
+        right: 18px
+.swiper-container
+.swiper-wrapper
+.swiper-slide

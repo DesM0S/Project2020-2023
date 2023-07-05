@@ -1,0 +1,307 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .hotel-slider
+    width: 590px
+    height: 600px
+  .card
+    width: 220px
+  .packages
+    &-wrapper
+      grid-template-areas: "card-0 card-0" "card-1 card-2" "card-3 card-4"
+      grid-template-columns: 1fr 1fr
+      grid-template-rows: 1fr 1fr 1fr
+      grid-gap: 30px
+  .card-small
+    grid-template: 1fr 1fr / 1fr
+    width: 100%
+    min-height: 500px
+    &__top
+      width: 100%
+  .card-big
+    width: 100%
+    grid-template-rows: 500px
+    grid-template-columns: 1fr 1fr
+
+@media (max-width: 992px)
+  .container
+    max-width: 698px
+  .logo
+    width: 133px
+    height: 18px
+    &__image
+      width: 100%
+      height: 100%
+  .navbar
+    &-top
+      padding: 30px 0
+    &__search
+      margin-left: 46px
+    &-menu
+      padding: 21px 0
+      &__link
+        font-size: 12px
+        line-height: 15px
+  .search
+    &__input
+      width: 340px
+
+  .hotel
+    padding-bottom: 56px
+    &-grid
+      flex-direction: column
+    &-right
+      flex-direction: row
+    &-slider
+      width: 100%
+      &--bottom
+        margin-bottom: 30px
+  .map
+    width: 340px
+  .booking
+    width: 340px
+    padding: 28px 26px 28px 24px
+
+  .newsletter
+    padding: 75px 0 70px
+    &-wrapper
+      max-width: 700px
+  .subscribe
+    margin-top: -5px
+
+  .reviews
+    padding: 40px 0 90px 0
+    &__title
+      font-size: 30px
+      margin-bottom: 45px
+    &-slider
+      &__item
+        max-width: 579px
+        &:after, &:before
+          display: none
+      &__button
+        top: 50%
+        transform: translateY(-50%)
+        &--prev
+          left: 4px
+        &--next
+          right: 4px
+  .card
+    width: 339px
+    height: 255px
+  .activities
+    padding-top: 50px
+    &__card
+      margin-bottom: 20px
+    &-wrapper
+      flex-wrap: wrap
+  .packages
+    padding: 10px 0 60px
+    &__title
+      margin-bottom: 35px
+  .card-big
+    grid-template-rows: 500px
+    grid-template-columns: 330px 1fr
+
+@media (max-width: 767px)
+  .container
+    max-width: 576px
+    width: 92%
+  .menu
+    &-button
+      width: 16px
+      height: 11px
+      padding: 0
+
+      display: flex
+      justify-content: space-between
+      align-items: center
+      flex-direction: column
+
+      cursor: pointer
+      outline: none
+      background: none
+      border: none
+      &__line
+        width: 16px
+        height: 1px
+        background: $text-color
+
+  .hotel
+    &-wrapper
+      justify-content: space-between
+    &-name
+      flex-basis: 100%
+    &-info
+      &__text
+        width: 100%
+      &__offer
+        margin: 0
+        order: -1
+      &__name
+        margin-top: 10px
+
+      &__reting
+        display: none
+    &-right
+      flex-direction: column
+    &-slider
+      height: 350px
+      height: 100%
+  .stars
+    flex-basis: auto
+  .navbar
+    &-menu, &__search, &__user
+      display: none
+
+  .map
+    width: 100%
+  .booking
+    width: 100%
+    &--bottom
+      margin-bottom: 30px
+  .newsletter
+    &-wrapper
+      width: 92%
+      max-width: 576px
+      flex-direction: column
+      align-items: start
+    &__subscribe
+      margin-top: 20px
+
+  .card
+    width: 46%
+    height: 255px
+  .packages
+    &-wrapper
+      grid-template-areas: "card-0" "card-0" "card-1" "card-2" "card-3" "card-4"
+      grid-template-columns: 1fr
+      grid-template-rows: 0.5fr 0.5fr repeat(4, min-content)
+      grid-gap: 30px
+  .card-small
+    grid-template: 1fr 1fr / 1fr
+    width: 100%
+    height: 580px
+    &__top
+      height: 290px
+  .card-big
+    width: 100%
+    grid-template-rows: 350px 1fr
+    grid-template-columns: 1fr
+    &__botton
+      border-top-right-radius: 0px
+@media (max-width: 640px)
+  .reviews
+    &__title
+      font-size: 30px
+      margin-bottom: 45px
+    &-slider
+      &__item
+        max-width: 579px
+      &__button
+        top: 10%
+        transform: translateY(-15%)
+        &--prev
+          left: 50%
+          transform: translateX(-50%)
+          margin-left: -65px
+        &--next
+          right: 50%
+          transform: translateX(50%)
+          margin-right: -65px
+  .packages
+    &-wrapper
+      grid-gap: 15px
+@media (max-width: 530px)
+  .card
+    width: 100%
+@media (max-width: 460px)
+  .hotel-slider
+    height: 250px
+  .subscribe
+    width: 100%
+  .reviews
+    &__title
+      font-size: 18px
+      padding-left: 20px
+      padding-right: 20px
+      line-height: 23px
+  .reviews-slider__text
+    text-align: left
+  .card-big
+    &__botton
+      padding: 30px 21px 25px 32px
+  .packages
+    &-button
+      font-size: 10px
+      width: 90px
+      height: 30px
+      margin-bottom: 15px
+@media (max-width: 320px)
+  .logo
+    width: 99px
+    height: 13px
+  .container
+    width: 280px
+  .navbar-top
+    padding: 28px 0
+  .hotel
+    padding-top: 5px
+    padding-bottom: 39px
+
+    &-info
+      margin-bottom: 20px
+    &-slider
+      height: 180px
+      &--bottom
+        margin-bottom: 17px
+  .stars
+    flex-basis: 25%
+  .booking--bottom
+    margin-bottom: 20px
+  .map
+    width: 280px
+    height: 172.94px
+  .newsletter
+    padding: 58px 0 83px
+    &-wrapper
+      width: 280px
+    &-title
+      font-size: 20px
+      line-height: 25px
+    &-title__strong
+      margin-top: 5px
+      font-size: 30px
+      line-height: 38px
+    &__subscribe
+      margin-top: 22px
+  .subscribe
+    width: 280px
+    height: 55px
+    &__input
+      padding: 0 75px 0 20px
+
+  .reviews
+    &-slider
+      &__item
+        max-width: 579px
+        padding: 0 31px 30px
+
+      &__button
+        top: 6%
+        &--prev
+          left: 50%
+          transform: translateX(-50%)
+          margin-left: -90px
+        &--next
+          right: 50%
+          transform: translateX(50%)
+          margin-right: -90px
+  .activities
+    padding-top: 20px
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 39px
+    &__card:nth-last-child(3)
+      margin-bottom: 28px
