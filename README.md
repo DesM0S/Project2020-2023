@@ -16,3 +16,11 @@ https://desm0s.github.io/Project2020-2023/registration_start_2020/index.html <br
 Дальше захотелось создать что-то свое <br>
 неудачный сайт - https://desm0s.github.io/Project2020-2023/site_paperscheck/PapersCheck/PapersCheck/src/ <br>
 хорошая практика в js создание карточек - https://desm0s.github.io/Project2020-2023/site_paperscheck/cart/ <br>
+
+# Проекты в колледже *Которые сохранилсь*
+В середине 2 курса мы начали применять теорию на практике и делать на парах дизайн и различную вида разработку сайтов <br>
+
+Курсовой проект перевод числа в пропись - https://desm0s.github.io/Project2020-2023/college_practic/NFS/ <br>
+
+Проект на хакатоне - https://desm0s.github.io/Project2020-2023/hakaton_2021/ - тут к нам на хакатон пришел спикер, в его компанию требовался сотрудник (верстальшик\техподержка) я с ним познакомился и вечером созвонились и на следующий день меня уже приняли в их компанию
+
