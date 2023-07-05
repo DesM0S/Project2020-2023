@@ -33,6 +33,12 @@
 
 применять теорию на практике и делать на парах дизайн и разработку сайтов.
 
+На парах мы 1 пару делали дизайн а 2 другие верстали
+- Примеры работ на парах
+	- [Stroydom](https://desm0s.github.io/Project2020-2023/college_practic/para/stroydom/stroydom/)
+	- [AutoTrasporti](https://desm0s.github.io/Project2020-2023/college_practic/para/AutoTrasporti/)
+	- [Sportpalace](https://desm0s.github.io/Project2020-2023/college_practic/para/sportpalace/)
+
 - [Курсовой проект: перевод числа в пропись](https://desm0s.github.io/Project2020-2023/college_practic/NFS/)
 - [Курсовой проект: экскурсия по колледжу](https://desm0s.github.io/College-excursion/)
 - [Проект "todolist"](https://desm0s.github.io/Project2020-2023/TodoList/site/)
