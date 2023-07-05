@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список Дел</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="glavDiv">
+        <div class="fix_block">
+            <div class="left leftAndright">
+                <h2>Cписок Дел:</h2>
+                <span id="nonelist">Cписок пуст...</span>
+                <div class="works">
+                    <div class="list">
+                        <div class="nameWorks">
+                            <span class="nameFack">Название дела</span>
+                            <button class='lik'>X</button>
+                            <img class="degs" src="стрелка.png" alt="cursir">
+
+                        </div>
+
+                        <div class="textWorks">Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusantium
+                            laboriosam eius dolore corrupti voluptates temporibus ratione atque suscipit nobis.
+                            Similique aut facere nobis sint eligendi sit exercitationem consequatur in.</div>
+                    </div>
+                    <div class="list">
+
+                        <div class="nameWorks">
+                            <span class="nameFack">Название дела</span>
+                            <button class='lik'>X</button>
+                            <img class="degs" src="стрелка.png" alt="cursir">
+
+                        </div>
+                        <div class="textWorks">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusantium laboriosam eius
+                                dolore corrupti voluptates temporibus ratione atque suscipit nobis. Similique aut facere
+                                nobis sint eligendi sit exercitationem consequatur in.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right leftAndright">
+                <h2>Добавить новое дело</h2>
+
+                <div class="forms">
+                    <form action="#" method="POST">
+                        <div class="inputs">
+                            <label for="name">*Название</label><br>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="textareas">
+                            <label for="texarea">*описание</label><br>
+                            <textarea name="description" id="texarea"></textarea>
+                        </div>
+                        <div>
+                            <button type="reset" class="wsr">Добавить дело</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

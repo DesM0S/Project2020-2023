@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1440px, xxl: 1600px);
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/modal";
+
+@import "./mixin";
+
+// fonts //
+$main-font: 'Inter',
+sans-serif;
+$medium: 500;
+// colors //
+$text-color: rgba(0, 0, 0, .75);
+$primary-color: #F38300;
+$gray75: rgba(0, 0, 0, .75);
+$gray5: rgba(0, 0, 0, .5);
+$black: #000;
+$textGrey: #736E6E;
+@import "./init";
+
+////////////////////////////////////
+::selection {
+    color: white;
+    background: $primary-color;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+
+body {
+    font-family: $main-font;
+    --fancybox-accent-color: white;
+    font-size: 16px;
+}
+
+input {
+    @include placeholder {
+        color: rgba(0, 0, 0, 0.25);
+        ;
+    }
+}
+
+.app {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    background: white;
+    cursor: text;
+}
+
+.app-screen {
+    float: right;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-menu {
+    @include standartAnimate();
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 250px;
+    height: 100vh;
+    background: #FBFBFA;
+    border-right: 1px solid #BDBCBC;
+
+    &.active {
+        width: 0;
+        transform: translateX(-250px) translateY(0px) translateZ(0px);
+    }
+    // &-line-open{
+    //     height: calc(100% - 50px);
+    //     width: 20px;
+    //     background: #000;
+    //     position: absolute;
+    //     left: 0;
+    //     top: 50px;
+    //     cursor :ne-resize
+    // }
+    &__container {
+        position: relative;
+
+    }
+
+    &__close {
+        position: absolute;
+        top: 5px;
+        padding: 10px;
+        right: 5px;
+        cursor: pointer;
+        @include standartAnimate();
+
+        &.active {
+            right: -300px;
+
+            .app-menu__close {
+                &--close {
+                    opacity: 0;
+                    transform: scale(-1, -1);
+                }
+                &--open{
+                    opacity: 1;
+                }
+            }
+            &:hover{
+                .app-menu__close {
+                    &--close {
+                        opacity: 1;
+                    }
+                    &--open{
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+
+        &-container {
+            width: 24px;
+            height: 24px;
+            position: relative;
+        }
+
+        &--open,
+        &--close {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            @include standartAnimate();
+        }
+        &--open{
+            opacity: 0;
+        }
+    }
+
+    &-function {
+        position: relative;
+        border-bottom: 1px solid #BDBCBC;
+        padding: 15px 0px;
+
+        &-user {
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+
+            &__img {
+                width: 25px;
+                height: 26px;
+                border-radius: 100%;
+                overflow: hidden;
+
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            &__name {
+                margin-left: 11px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+
+        &-setting {
+            margin-top: 15px;
+
+            &-item {
+                padding: 5px 20px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                @include standartAnimate();
+                background: transparent;
+
+                &:hover {
+                    background: #e7e5e5;
+                }
+
+                &__icon {
+                    width: 20px;
+                }
+
+                &__name {
+                    margin-left: 10px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $textGrey;
+                }
+            }
+        }
+    }
+
+
+
+
+    &-category {
+        margin-top: 15px;
+
+        &__item {
+            display: flex;
+            padding: 7px 28px;
+            @include standartAnimate();
+            background: transparent;
+
+            &:hover,
+            &.active {
+                background: #e7e5e5;
+            }
+        }
+
+        &__name {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: $textGrey
+        }
+    }
+}
