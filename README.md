@@ -29,3 +29,11 @@ https://desm0s.github.io/Project2020-2023/registration_start_2020/index.html <br
 Проект на хакатоне - https://desm0s.github.io/Project2020-2023/hakaton_2021/ - тут к нам на хакатон пришел спикер, в его компанию требовался сотрудник (верстальшик\техподержка) я с ним познакомился и вечером созвонились и на следующий день меня уже приняли в их компанию
 
 # Прохождение курса от gloacademy
+На курсе я узнал поный процесс разработки с бодробным обьяснением каждого этапа
+использование шривтоф - https://desm0s.github.io/Project2020-2023/Curse_gloacademy/less_fonts_viewer/ <br>
+карточка - https://desm0s.github.io/Project2020-2023/Curse_gloacademy/cart/ <br>
+использование flex-box - https://desm0s.github.io/Project2020-2023/Curse_gloacademy/flex_box/ <br>
+Сайт по курсу - https://desm0s.github.io/Project2020-2023/Curse_gloacademy/curse_site/ <br>
+Дипломный проект - https://desm0s.github.io/Project2020-2023/Curse_gloacademy/Tour-plan/ <br>
+дипломный проект грид - https://desm0s.github.io/Project2020-2023/Curse_gloacademy/Tour-plan-grid/ <br>
+
